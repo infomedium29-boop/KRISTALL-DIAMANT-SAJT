@@ -38,3 +38,6 @@ Deploy-ready statički višestranični site za GitHub + Cloudflare Pages.
 
 ## Struktura
 Naslovna, O nama, Usluge, Cijene, Paketi, Recenzije, Blog, Kontakt, Posao, pravne stranice i pojedinačni SEO landing pageovi usluga.
+
+## V4 – lebdeća navigacija
+Navigacija je sada fiksna i lebdi iznad sadržaja kao zaobljeni premium panel s blur efektom i sjenom. Na mobitelu se izbornik otvara kao zaseban zaobljeni floating panel. Gornji utility bar je skriven kako navigacija ne bi bila vizualno prenatrpana.
