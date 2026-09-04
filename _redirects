@@ -1,0 +1,14 @@
+# Stari WordPress URL-ovi -> nova struktura
+/naslovna/usluge-ciscenja-zagreb/ /paketi/ 301
+/usluga/ciscenje-stanova-i-kuca/ /usluge/ciscenje-stanova-i-kuca/ 301
+/usluga/ciscenje-kuca/ /usluge/ciscenje-stanova-i-kuca/ 301
+/usluga/servis-za-ciscenje-stana-kuca-zagreb/ /usluge/ciscenje-stanova-i-kuca/ 301
+/usluga/ciscenje-poslovnih-prostora/ /usluge/ciscenje-poslovnih-prostora/ 301
+/usluga/ciscenje-stubista/ /usluge/ciscenje-stubista/ 301
+/usluga/ostala-ciscenja/ /usluge/generalno-ciscenje/ 301
+/usluga/generalno-ciscenje/ /usluge/generalno-ciscenje/ 301
+/usluga/ciscenje-tepiha-i-tapeciranih-namjestaja/ /usluge/dubinsko-ciscenje/ 301
+/usluga/ciscenje-tepiha-i-tapeciranih-namjestaja /usluge/dubinsko-ciscenje/ 301
+/poslovni-prostori/ /posao/ 301
+/privacy-policy/ /politika-privatnosti/ 301
+/854-2/ /opci-uvjeti-poslovanja/ 301
