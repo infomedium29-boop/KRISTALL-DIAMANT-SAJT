@@ -1,3 +1,25 @@
+// Premium brand reveal – prikazuje se jednom po sesiji. Dodaj ?intro=1 za ponovni pregled.
+const brandIntro=document.querySelector('[data-brand-intro]');
+if(brandIntro){
+  const params=new URLSearchParams(window.location.search);
+  const forceIntro=params.has('intro');
+  const reduceMotion=window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+  let seen=false;
+  try{
+    if(forceIntro){sessionStorage.removeItem('kd-brand-intro');document.documentElement.classList.remove('intro-seen');}
+    seen=sessionStorage.getItem('kd-brand-intro')==='1';
+  }catch(e){}
+  if(seen&&!forceIntro){
+    brandIntro.remove();
+  }else{
+    document.body.classList.add('intro-lock');
+    requestAnimationFrame(()=>brandIntro.classList.add('play'));
+    try{sessionStorage.setItem('kd-brand-intro','1')}catch(e){}
+    const finish=()=>{document.body.classList.remove('intro-lock');brandIntro.remove();};
+    window.setTimeout(finish,reduceMotion?260:2820);
+  }
+}
+
 const menuBtn=document.querySelector('.menu-btn');
 const mobileMenu=document.querySelector('.mobile-menu');
 if(menuBtn&&mobileMenu){menuBtn.addEventListener('click',()=>{const open=mobileMenu.classList.toggle('open');menuBtn.setAttribute('aria-expanded',open?'true':'false');document.body.style.overflow=open?'hidden':''});mobileMenu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{mobileMenu.classList.remove('open');document.body.style.overflow=''}));}

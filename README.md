@@ -1,6 +1,16 @@
-# Kristall Diamant — premium redizajn v2
+# Kristall Diamant — premium redizajn v3
 
 Deploy-ready statički višestranični site za GitHub + Cloudflare Pages.
+
+
+## Službeni logo + premium intro
+- Integriran je službeni logo koji je dostavio vlasnik.
+- Logo se koristi u headeru, footeru i faviconu.
+- Pri prvom ulasku u sesiji prikazuje se kratki premium brand reveal: logo se postupno otkriva/iscrtava, zatim se pojavljuje naziv i stranica se elegantno otvara.
+- Intro se ne ponavlja na svakoj podstranici u istoj sesiji.
+- Za testiranje introa u bilo kojem trenutku dodajte `?intro=1` na URL, npr. `https://preview.pages.dev/?intro=1`.
+- Animacija poštuje `prefers-reduced-motion`.
+- Originalni dostavljeni logo spremljen je u `assets/source/kristall-diamant-logo-original.png`, a optimizirane web verzije u `assets/img/`.
 
 ## Deploy na Cloudflare Pages
 - Framework preset: **None**

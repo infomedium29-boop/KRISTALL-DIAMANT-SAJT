@@ -20,3 +20,7 @@ U novom previewu nisu vezane direktno na staru domenu jer bi nakon promjene DNS-
 - https://ciscenjekristalldiamant.hr/wp-content/uploads/2021/11/IMG-20211123-WA0038000.jpg
 - https://ciscenjekristalldiamant.hr/wp-content/uploads/2021/11/redovnogeneralno-1024x1024.jpg
 - https://ciscenjekristalldiamant.hr/wp-content/uploads/2021/11/forma-1024x1024.jpg
+
+
+## V3 — logo i intro
+Službeni Kristall Diamant logo integriran je u globalni header/footer. Dodan je session-based intro reveal koji se prikazuje jednom po sesiji i ne mijenja postojeće URL-ove, Google Ads landing stranice ni redirect logiku.

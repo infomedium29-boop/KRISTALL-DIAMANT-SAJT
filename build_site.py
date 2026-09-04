@@ -1,6 +1,6 @@
 from pathlib import Path
 import json, html
-ROOT = Path('/mnt/data/kristall-diamant-v2')
+ROOT = Path('/mnt/data/kristall-diamant-v3')
 
 PHONE_DISPLAY='097 752 4712'
 PHONE='+385977524712'
@@ -37,7 +37,7 @@ def nav(active=''):
         return f'<a class="{c} {extra}" href="{href}">{label}</a>'
     return f'''<div class="topbar"><div class="container topbar-inner"><div class="topbar-note">Obiteljski servis za čišćenje u Zagrebu</div><div class="topbar-contact"><a href="tel:{PHONE}">☎ {PHONE_DISPLAY}</a><a href="mailto:{EMAIL}">✉ {EMAIL}</a></div></div></div>
 <header class="site-header"><div class="container header-inner">
-<a class="brand" href="/"><img src="/assets/img/diamond.svg" alt="Kristall Diamant"><span><span class="brand-title">Kristall Diamant</span><span class="brand-sub">Obiteljski servis za čišćenje u Zagrebu</span></span></a>
+<a class="brand" href="/"><img class="brand-logo" src="/assets/img/logo-kristall-small.png" alt="Kristall Diamant logo"><span><span class="brand-title">Kristall Diamant</span><span class="brand-sub">Obiteljski servis za čišćenje u Zagrebu</span></span></a>
 <nav class="nav" aria-label="Glavna navigacija">
 {a('Naslovna','/','home')}{a('O nama','/o-nama/','about')}
 <div class="nav-drop"><button class="nav-drop-btn {'active' if active=='services' else ''}" aria-expanded="false">Usluge <span>⌄</span></button><div class="nav-dropdown">
@@ -56,18 +56,33 @@ def nav(active=''):
 
 def footer():
     return f'''<section class="contact-strip"><div class="container contact-strip-inner"><div><span class="eyebrow">Brzi kontakt</span><h2>Javite se kako vam najviše odgovara.</h2></div>{social_html}</div></section>
-<footer class="footer"><div class="container footer-grid"><div><a class="brand" href="/"><img src="/assets/img/diamond.svg" alt="Kristall Diamant"><span><span class="brand-title">Kristall Diamant</span><span class="brand-sub">Obiteljski servis za čišćenje u Zagrebu</span></span></a><p>Obiteljski servis za čišćenje stanova, kuća, poslovnih prostora i zgrada u Zagrebu i okolici. Isti ljudi, jasna komunikacija i dogovoren opseg posla.</p><div class="legal-meta">Kristall Diamant, obrt za usluge<br>vl. Tamara Karakhanova<br>{ADDRESS}<br>OIB: 01142261377 · MBS: 98615220</div></div><div><h4>Brzi linkovi</h4><div class="footer-links"><a href="/">Naslovna</a><a href="/o-nama/">O nama</a><a href="/cijene/">Cijene</a><a href="/paketi/">Paketi</a><a href="/recenzije/">Recenzije</a><a href="/blog/">Blog</a><a href="/posao/">Posao</a></div></div><div><h4>Usluge</h4><div class="footer-links"><a href="/usluge/ciscenje-stanova-i-kuca/">Stanovi i kuće</a><a href="/usluge/ciscenje-poslovnih-prostora/">Poslovni prostori</a><a href="/usluge/generalno-ciscenje/">Generalno čišćenje</a><a href="/usluge/redovno-ciscenje/">Redovno čišćenje</a><a href="/usluge/ciscenje-stubista/">Stubišta i zgrade</a><a href="/usluge/dubinsko-ciscenje/">Tepisi i namještaj</a></div></div><div><h4>Kontakt</h4><div class="footer-links"><a href="tel:{PHONE}">{PHONE_DISPLAY}</a><a href="mailto:{EMAIL}">{EMAIL}</a><span>{ADDRESS}</span><span>Zagreb i okolica</span><a href="{INSTAGRAM}" target="_blank" rel="noopener">Instagram</a></div></div></div><div class="footer-bottom"><div class="container"><span>© 2026 Kristall Diamant. Sva prava pridržana.</span><span><a href="/politika-privatnosti/">Politika privatnosti</a> · <a href="/opci-uvjeti-poslovanja/">Opći uvjeti</a> · <a href="/kolacici/">Kolačići</a></span></div></div></footer>
+<footer class="footer"><div class="container footer-grid"><div><a class="brand" href="/"><img class="brand-logo" src="/assets/img/logo-kristall-small.png" alt="Kristall Diamant logo"><span><span class="brand-title">Kristall Diamant</span><span class="brand-sub">Obiteljski servis za čišćenje u Zagrebu</span></span></a><p>Obiteljski servis za čišćenje stanova, kuća, poslovnih prostora i zgrada u Zagrebu i okolici. Isti ljudi, jasna komunikacija i dogovoren opseg posla.</p><div class="legal-meta">Kristall Diamant, obrt za usluge<br>vl. Tamara Karakhanova<br>{ADDRESS}<br>OIB: 01142261377 · MBS: 98615220</div></div><div><h4>Brzi linkovi</h4><div class="footer-links"><a href="/">Naslovna</a><a href="/o-nama/">O nama</a><a href="/cijene/">Cijene</a><a href="/paketi/">Paketi</a><a href="/recenzije/">Recenzije</a><a href="/blog/">Blog</a><a href="/posao/">Posao</a></div></div><div><h4>Usluge</h4><div class="footer-links"><a href="/usluge/ciscenje-stanova-i-kuca/">Stanovi i kuće</a><a href="/usluge/ciscenje-poslovnih-prostora/">Poslovni prostori</a><a href="/usluge/generalno-ciscenje/">Generalno čišćenje</a><a href="/usluge/redovno-ciscenje/">Redovno čišćenje</a><a href="/usluge/ciscenje-stubista/">Stubišta i zgrade</a><a href="/usluge/dubinsko-ciscenje/">Tepisi i namještaj</a></div></div><div><h4>Kontakt</h4><div class="footer-links"><a href="tel:{PHONE}">{PHONE_DISPLAY}</a><a href="mailto:{EMAIL}">{EMAIL}</a><span>{ADDRESS}</span><span>Zagreb i okolica</span><a href="{INSTAGRAM}" target="_blank" rel="noopener">Instagram</a></div></div></div><div class="footer-bottom"><div class="container"><span>© 2026 Kristall Diamant. Sva prava pridržana.</span><span><a href="/politika-privatnosti/">Politika privatnosti</a> · <a href="/opci-uvjeti-poslovanja/">Opći uvjeti</a> · <a href="/kolacici/">Kolačići</a></span></div></div></footer>
 <div class="toast" role="status" aria-live="polite"></div>
 <div class="cookie"><p><strong>Privatnost bez komplikacija.</strong><br>Preview verzija ne aktivira analitičke ni marketinške kolačiće. Ako ih kasnije uključimo, aktivirat će se tek nakon odgovarajuće privole.</p><button data-cookie-ok class="btn btn-dark">U redu</button></div>
 <div class="mobile-sticky"><a href="tel:{PHONE}">Nazovi</a><a href="https://wa.me/{PHONE.replace('+','')}">WhatsApp</a><a href="/kontakt/">Procjena</a></div>'''
 
+def brand_intro():
+    return """<div class="brand-intro" data-brand-intro aria-hidden="true">
+  <div class="brand-intro-stage">
+    <div class="brand-intro-mark">
+      <img class="intro-logo intro-logo-ghost" src="/assets/img/logo-kristall.png" alt="">
+      <div class="intro-logo-reveal"><img class="intro-logo" src="/assets/img/logo-kristall.png" alt=""></div>
+      <span class="intro-sweep"></span>
+      <span class="intro-spark intro-spark-a">✦</span>
+      <span class="intro-spark intro-spark-b">✧</span>
+    </div>
+    <div class="intro-wordmark">KRISTALL DIAMANT</div>
+    <div class="intro-tagline">Obiteljski servis za čišćenje u Zagrebu</div>
+  </div>
+</div>"""
+
 def head(title,desc,path='/',schema_extra=''):
     url='https://ciscenjekristalldiamant.hr'+path
     schema={"@context":"https://schema.org","@type":"CleaningService","name":"Kristall Diamant","url":"https://ciscenjekristalldiamant.hr/","telephone":PHONE,"email":EMAIL,"address":{"@type":"PostalAddress","streetAddress":"Tršćanska 1","addressLocality":"Zagreb","addressCountry":"HR"},"areaServed":"Zagreb i okolica","priceRange":"€€"}
-    return f'''<!doctype html><html lang="hr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{html.escape(title)}</title><meta name="description" content="{html.escape(desc)}"><link rel="canonical" href="{url}"><meta property="og:type" content="website"><meta property="og:title" content="{html.escape(title)}"><meta property="og:description" content="{html.escape(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="https://ciscenjekristalldiamant.hr/assets/img/hero-vase.webp"><meta name="theme-color" content="#08243b"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/css/style.css"><script type="application/ld+json">{json.dumps(schema,ensure_ascii=False)}</script>{schema_extra}</head><body>'''
+    return f'''<!doctype html><html lang="hr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{html.escape(title)}</title><meta name="description" content="{html.escape(desc)}"><link rel="canonical" href="{url}"><meta property="og:type" content="website"><meta property="og:title" content="{html.escape(title)}"><meta property="og:description" content="{html.escape(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="https://ciscenjekristalldiamant.hr/assets/img/hero-vase.webp"><meta name="theme-color" content="#08243b"><link rel="icon" href="/assets/img/logo-kristall-small.png" type="image/png"><link rel="apple-touch-icon" href="/assets/img/logo-kristall-small.png"><link rel="preload" as="image" href="/assets/img/logo-kristall.png"><script>try{{if(sessionStorage.getItem('kd-brand-intro')&&!new URLSearchParams(location.search).has('intro'))document.documentElement.classList.add('intro-seen')}}catch(e){{}}</script><link rel="stylesheet" href="/assets/css/style.css"><script type="application/ld+json">{json.dumps(schema,ensure_ascii=False)}</script>{schema_extra}</head><body>'''
 
 def page(title,desc,path,active,body):
-    return head(title,desc,path)+nav(active)+f'<main>{body}</main>'+footer()+'<script src="/assets/js/main.js" defer></script></body></html>'
+    return head(title,desc,path)+brand_intro()+nav(active)+f'<main>{body}</main>'+footer()+'<script src="/assets/js/main.js" defer></script></body></html>'
 
 def write(path,content):
     p=ROOT/path
@@ -221,7 +236,7 @@ cookies=hero('Kolačići.','Pravno','Jasno objašnjenje kako preview i buduća p
 write(Path('kolacici/index.html'),page('Kolačići | Kristall Diamant','Informacije o kolačićima i alatima za praćenje na web stranici Kristall Diamant.','/kolacici/','',cookies))
 
 # 404
-notfound=head('Stranica nije pronađena | Kristall Diamant','Tražena stranica nije pronađena.','/404')+nav('')+'''<main><section class="page-hero error-hero"><div class="container"><div><div class="eyebrow">404</div><h1>Ova stranica više nije ovdje.</h1><p class="lead">Ako ste došli preko starog linka, provjerite izbornik usluga ili se vratite na naslovnu.</p><div class="btn-row"><a class="btn btn-primary" href="/">Naslovna</a><a class="btn btn-outline" href="/usluge/">Usluge</a></div></div></div></section></main>'''+footer()+'<script src="/assets/js/main.js" defer></script></body></html>'
+notfound=head('Stranica nije pronađena | Kristall Diamant','Tražena stranica nije pronađena.','/404')+brand_intro()+nav('')+'''<main><section class="page-hero error-hero"><div class="container"><div><div class="eyebrow">404</div><h1>Ova stranica više nije ovdje.</h1><p class="lead">Ako ste došli preko starog linka, provjerite izbornik usluga ili se vratite na naslovnu.</p><div class="btn-row"><a class="btn btn-primary" href="/">Naslovna</a><a class="btn btn-outline" href="/usluge/">Usluge</a></div></div></div></section></main>'''+footer()+'<script src="/assets/js/main.js" defer></script></body></html>'
 write(Path('404.html'),notfound)
 
 # favicon from diamond
