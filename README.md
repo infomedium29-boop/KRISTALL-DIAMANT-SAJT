@@ -41,3 +41,7 @@ Naslovna, O nama, Usluge, Cijene, Paketi, Recenzije, Blog, Kontakt, Posao, pravn
 
 ## V4 – lebdeća navigacija
 Navigacija je sada fiksna i lebdi iznad sadržaja kao zaobljeni premium panel s blur efektom i sjenom. Na mobitelu se izbornik otvara kao zaseban zaobljeni floating panel. Gornji utility bar je skriven kako navigacija ne bi bila vizualno prenatrpana.
+
+
+## V5 — rose / blush palette
+Vizualni identitet je prilagođen bojama postojećeg Kristall Diamant weba: vrlo svijetla roza/blush podloga, bijela, charcoal/plum tekstovi i mauve/fuchsia akcenti. Plava paleta iz prethodne verzije je uklonjena.
