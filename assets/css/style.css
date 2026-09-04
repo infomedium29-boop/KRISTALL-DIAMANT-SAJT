@@ -254,3 +254,82 @@ body{background:#fffafd;color:#2c232b}
 .contact-card .quick-links a:hover{border-color:#efb6e6;color:#efb6e6}
 .page-hero:after{border-color:rgba(196,85,181,.10);box-shadow:0 0 0 65px rgba(196,85,181,.035),0 0 0 130px rgba(196,85,181,.02)}
 @media(max-width:720px){.hero{background:#342732}.hero-media:after{background:linear-gradient(180deg,rgba(52,39,50,.35),rgba(52,39,50,.95) 75%)}.cta:before{background:rgba(52,39,50,.84)}}
+
+/* ===== V6: CENTERED HERO + FLOATING NAV SAFE AREA ===== */
+.hero{
+  min-height:760px;
+  background:#342732;
+}
+.hero-media{
+  inset:0!important;
+  background-position:center center!important;
+}
+.hero-media:after{
+  background:
+    linear-gradient(180deg,rgba(52,39,50,.48) 0%,rgba(52,39,50,.36) 32%,rgba(52,39,50,.55) 100%),
+    linear-gradient(90deg,rgba(52,39,50,.62) 0%,rgba(75,52,71,.40) 50%,rgba(52,39,50,.58) 100%)!important;
+}
+.hero-content{
+  min-height:760px!important;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding-top:132px;
+  padding-bottom:62px;
+}
+.hero-copy{
+  width:min(100%,850px);
+  max-width:850px!important;
+  margin:0 auto;
+  padding:0!important;
+}
+.hero .eyebrow{
+  margin-bottom:14px;
+}
+.hero h1{
+  max-width:820px!important;
+  margin-left:auto;
+  margin-right:auto;
+  font-size:clamp(3.6rem,6.2vw,6rem);
+}
+.hero .hero-sub{
+  max-width:760px;
+  margin:0 auto 14px;
+}
+.hero .lead{
+  max-width:720px!important;
+  margin:0 auto 24px;
+}
+.hero .btn-row{
+  justify-content:center;
+}
+
+@media(max-width:1020px){
+  .hero,.hero-content{min-height:720px!important}
+  .hero-content{padding-top:116px;padding-bottom:54px}
+  .hero h1{font-size:clamp(3.3rem,9vw,5.4rem)}
+}
+
+@media(max-width:720px){
+  .hero,.hero-content{min-height:700px!important}
+  .hero-content{
+    align-items:center!important;
+    padding-top:104px!important;
+    padding-bottom:86px!important;
+  }
+  .hero-copy{
+    padding:0!important;
+    text-align:center;
+  }
+  .hero-media{background-position:62% center!important;opacity:.92}
+  .hero-media:after{
+    background:linear-gradient(180deg,rgba(52,39,50,.44) 0%,rgba(52,39,50,.60) 45%,rgba(52,39,50,.88) 100%)!important;
+  }
+  .hero h1{
+    font-size:clamp(3rem,14vw,4.7rem);
+    max-width:100%!important;
+  }
+  .hero .hero-sub{font-size:1.15rem}
+  .hero .lead{font-size:1rem;max-width:560px!important}
+  .hero .btn-row{justify-content:center}
+}
