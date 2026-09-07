@@ -432,3 +432,186 @@ body{background:#fffafd;color:#2c232b}
   .home-services .service-body{min-height:54px;padding:9px 8px 10px!important}
   .home-services .service-body h3{font-size:.72rem!important}
 }
+
+/* ===== V12: SERVICE SUBMENUS + PREMIUM MOBILE QUICK CONTACT ===== */
+.site-header .nav-dropdown{width:300px}
+
+@media(max-width:1020px){
+  .mobile-menu{padding-bottom:24px!important}
+
+  /* Main mobile navigation: clean, readable and compact. */
+  .mobile-menu > a:not(.btn){
+    font-family:var(--serif)!important;
+    font-size:1.08rem!important;
+    line-height:1.15!important;
+    padding:11px 3px!important;
+    border-bottom:1px solid rgba(118,84,109,.13)!important;
+  }
+  .mobile-menu-cta{
+    margin:17px 0 0!important;
+    width:100%!important;
+    min-height:48px;
+    padding:13px 16px!important;
+    border:0!important;
+    border-radius:999px!important;
+    font-family:var(--sans)!important;
+    font-size:.72rem!important;
+    line-height:1.2!important;
+    letter-spacing:.055em!important;
+  }
+
+  /* Services becomes a real nested dropdown on mobile. */
+  .mobile-nav-group{border-bottom:1px solid rgba(118,84,109,.13)}
+  .mobile-submenu-toggle{
+    width:100%;
+    min-height:47px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:14px;
+    padding:11px 3px;
+    border:0;
+    background:transparent;
+    color:var(--ink);
+    font-family:var(--serif);
+    font-size:1.08rem;
+    line-height:1.15;
+    text-align:left;
+    cursor:pointer;
+  }
+  .mobile-chevron{
+    width:28px;height:28px;
+    display:grid;place-items:center;
+    flex:0 0 28px;
+    border:1px solid rgba(196,85,181,.18);
+    border-radius:50%;
+    color:var(--blue);
+    font-family:var(--sans);
+    font-size:.9rem;
+    transition:transform .25s ease,background .25s ease;
+  }
+  .mobile-nav-group.open .mobile-chevron{transform:rotate(180deg);background:#fff3fb}
+  .mobile-submenu{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:7px;
+    max-height:0;
+    overflow:hidden;
+    opacity:0;
+    padding:0;
+    transform:translateY(-4px);
+    transition:max-height .35s ease,opacity .22s ease,padding .3s ease,transform .25s ease;
+  }
+  .mobile-nav-group.open .mobile-submenu{
+    max-height:430px;
+    opacity:1;
+    padding:2px 0 13px;
+    transform:none;
+  }
+  .mobile-submenu a{
+    display:flex!important;
+    align-items:center;
+    min-height:44px;
+    padding:8px 10px!important;
+    margin:0!important;
+    border:1px solid rgba(196,85,181,.13)!important;
+    border-radius:12px!important;
+    background:rgba(255,255,255,.78);
+    color:#5b4656;
+    font-family:var(--sans)!important;
+    font-size:.70rem!important;
+    font-weight:700;
+    line-height:1.22!important;
+    letter-spacing:-.005em;
+  }
+  .mobile-submenu a:first-child{
+    grid-column:1/-1;
+    min-height:40px;
+    justify-content:center;
+    color:#9d3d8e;
+    background:#fff1fb;
+    border-color:rgba(196,85,181,.22)!important;
+    text-transform:uppercase;
+    font-size:.62rem!important;
+    letter-spacing:.055em;
+  }
+  .mobile-submenu a:active{transform:scale(.985)}
+
+  /* Quick contact replaces unreadable TEL/WA/SMS/VIB... circles. */
+  .mobile-quick{
+    margin-top:16px;
+    padding-top:15px;
+    border-top:1px solid rgba(118,84,109,.13);
+  }
+  .mobile-quick-title{
+    margin-bottom:9px;
+    color:#9a8594;
+    font-size:.60rem;
+    font-weight:850;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+  }
+  .mobile-quick-grid{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:7px;
+  }
+  .mobile-menu .mobile-quick-grid a{
+    display:flex!important;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:5px;
+    min-width:0;
+    min-height:61px;
+    margin:0!important;
+    padding:8px 4px!important;
+    border:1px solid rgba(196,85,181,.14)!important;
+    border-radius:14px!important;
+    background:rgba(255,255,255,.82);
+    color:#594653;
+    font-family:var(--sans)!important;
+    font-size:.61rem!important;
+    font-weight:750;
+    line-height:1!important;
+    text-align:center;
+    letter-spacing:0!important;
+    overflow:hidden;
+  }
+  .mobile-menu .mobile-quick-grid a:hover,
+  .mobile-menu .mobile-quick-grid a:active{
+    color:var(--blue);
+    background:#fff7fc;
+    border-color:rgba(196,85,181,.28)!important;
+  }
+  .mobile-menu .mobile-quick-grid a:nth-child(2){color:#207a4d}
+  .mobile-menu .mobile-quick-grid .pending-social{opacity:.54}
+  .mobile-quick-icon{
+    width:23px;height:23px;
+    display:grid;place-items:center;
+    flex:0 0 23px;
+  }
+  .mobile-quick-icon svg{
+    width:20px;height:20px;
+    fill:none;
+    stroke:currentColor;
+    stroke-width:1.7;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+  }
+  .mobile-quick-icon .fill-dot{fill:currentColor;stroke:none}
+}
+
+@media(max-width:380px){
+  .mobile-submenu a{font-size:.66rem!important;padding:8px!important}
+  .mobile-menu .mobile-quick-grid a{font-size:.57rem!important;min-height:58px}
+}
+@media(max-width:1020px){
+  .mobile-menu a.mobile-menu-cta{
+    font-family:var(--sans)!important;
+    font-size:.72rem!important;
+    line-height:1.2!important;
+    letter-spacing:.055em!important;
+    padding:13px 16px!important;
+  }
+}

@@ -22,7 +22,10 @@ if(brandIntro){
 
 const menuBtn=document.querySelector('.menu-btn');
 const mobileMenu=document.querySelector('.mobile-menu');
-if(menuBtn&&mobileMenu){menuBtn.addEventListener('click',()=>{const open=mobileMenu.classList.toggle('open');menuBtn.setAttribute('aria-expanded',open?'true':'false');document.body.style.overflow=open?'hidden':''});mobileMenu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{mobileMenu.classList.remove('open');document.body.style.overflow=''}));}
+if(menuBtn&&mobileMenu){menuBtn.addEventListener('click',()=>{const open=mobileMenu.classList.toggle('open');menuBtn.setAttribute('aria-expanded',open?'true':'false');menuBtn.setAttribute('aria-label',open?'Zatvori izbornik':'Otvori izbornik');document.body.style.overflow=open?'hidden':''});mobileMenu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{mobileMenu.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');menuBtn.setAttribute('aria-label','Otvori izbornik');document.body.style.overflow=''}));}
+
+const mobileServicesToggle=document.querySelector('.mobile-submenu-toggle');
+if(mobileServicesToggle){mobileServicesToggle.addEventListener('click',()=>{const group=mobileServicesToggle.closest('.mobile-nav-group');const open=group.classList.toggle('open');mobileServicesToggle.setAttribute('aria-expanded',open?'true':'false');});}
 
 document.querySelectorAll('.nav-drop-btn').forEach(btn=>{btn.addEventListener('click',e=>{e.stopPropagation();const wrap=btn.closest('.nav-drop');wrap.classList.toggle('open');btn.setAttribute('aria-expanded',wrap.classList.contains('open')?'true':'false')})});
 document.addEventListener('click',()=>document.querySelectorAll('.nav-drop.open').forEach(x=>x.classList.remove('open')));
