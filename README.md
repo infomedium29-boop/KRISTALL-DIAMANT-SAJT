@@ -1,3 +1,15 @@
+# Kristall Diamant — premium redizajn V14
+
+Deploy-ready statički višestranični site za GitHub + Cloudflare Pages.
+
+## V14
+- kompletan hrvatski + engleski sadržaj
+- premium HR / EN prekidač u lebdećoj desktop navigaciji i mobilnom izborniku
+- English SEO URL-ovi pod `/en/`
+- canonical + hreflang (hr/en/x-default) na svim parovima stranica
+- dvojezični sitemap
+- GDPR/cookie banner, forme i dinamičke poruke rade na oba jezika
+
 # Kristall Diamant — premium redizajn V12
 
 Deploy-ready statički višestranični site za GitHub + Cloudflare Pages.

@@ -1,24 +1,255 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://ciscenjekristalldiamant.hr/</loc></url>
-  <url><loc>https://ciscenjekristalldiamant.hr/o-nama/</loc></url>
-  <url><loc>https://ciscenjekristalldiamant.hr/usluge/</loc></url>
-  <url><loc>https://ciscenjekristalldiamant.hr/usluge/ciscenje-stanova-i-kuca/</loc></url>
-  <url><loc>https://ciscenjekristalldiamant.hr/usluge/ciscenje-poslovnih-prostora/</loc></url>
-  <url><loc>https://ciscenjekristalldiamant.hr/usluge/generalno-ciscenje/</loc></url>
-  <url><loc>https://ciscenjekristalldiamant.hr/usluge/redovno-ciscenje/</loc></url>
-  <url><loc>https://ciscenjekristalldiamant.hr/usluge/ciscenje-stubista/</loc></url>
-  <url><loc>https://ciscenjekristalldiamant.hr/usluge/dubinsko-ciscenje/</loc></url>
-  <url><loc>https://ciscenjekristalldiamant.hr/usluge/ciscenje-nakon-adaptacije/</loc></url>
-  <url><loc>https://ciscenjekristalldiamant.hr/usluge/ciscenje-po-dogovoru/</loc></url>
-  <url><loc>https://ciscenjekristalldiamant.hr/cijene/</loc></url>
-  <url><loc>https://ciscenjekristalldiamant.hr/paketi/</loc></url>
-  <url><loc>https://ciscenjekristalldiamant.hr/recenzije/</loc></url>
-  <url><loc>https://ciscenjekristalldiamant.hr/blog/</loc></url>
-  <url><loc>https://ciscenjekristalldiamant.hr/blog/kako-odabrati-servis-za-ciscenje-ureda/</loc></url>
-  <url><loc>https://ciscenjekristalldiamant.hr/kontakt/</loc></url>
-  <url><loc>https://ciscenjekristalldiamant.hr/posao/</loc></url>
-  <url><loc>https://ciscenjekristalldiamant.hr/politika-privatnosti/</loc></url>
-  <url><loc>https://ciscenjekristalldiamant.hr/opci-uvjeti-poslovanja/</loc></url>
-  <url><loc>https://ciscenjekristalldiamant.hr/kolacici/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/o-nama/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/o-nama/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/o-nama/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/about/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/o-nama/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/o-nama/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/usluge/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/services/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/usluge/ciscenje-stanova-i-kuca/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-stanova-i-kuca/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/apartment-house-cleaning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-stanova-i-kuca/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/services/apartment-house-cleaning/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-stanova-i-kuca/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/apartment-house-cleaning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-stanova-i-kuca/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/usluge/ciscenje-poslovnih-prostora/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-poslovnih-prostora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/business-premises-cleaning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-poslovnih-prostora/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/services/business-premises-cleaning/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-poslovnih-prostora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/business-premises-cleaning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-poslovnih-prostora/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/usluge/generalno-ciscenje/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/generalno-ciscenje/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/deep-cleaning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/generalno-ciscenje/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/services/deep-cleaning/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/generalno-ciscenje/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/deep-cleaning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/generalno-ciscenje/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/usluge/redovno-ciscenje/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/redovno-ciscenje/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/regular-cleaning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/redovno-ciscenje/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/services/regular-cleaning/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/redovno-ciscenje/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/regular-cleaning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/redovno-ciscenje/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/usluge/ciscenje-stubista/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-stubista/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/stairwell-building-cleaning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-stubista/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/services/stairwell-building-cleaning/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-stubista/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/stairwell-building-cleaning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-stubista/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/usluge/dubinsko-ciscenje/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/dubinsko-ciscenje/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/carpet-upholstery-cleaning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/dubinsko-ciscenje/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/services/carpet-upholstery-cleaning/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/dubinsko-ciscenje/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/carpet-upholstery-cleaning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/dubinsko-ciscenje/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/usluge/ciscenje-nakon-adaptacije/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-nakon-adaptacije/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/post-renovation-cleaning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-nakon-adaptacije/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/services/post-renovation-cleaning/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-nakon-adaptacije/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/post-renovation-cleaning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-nakon-adaptacije/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/usluge/ciscenje-po-dogovoru/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-po-dogovoru/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/custom-cleaning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-po-dogovoru/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/services/custom-cleaning/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-po-dogovoru/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/custom-cleaning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-po-dogovoru/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/cijene/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/cijene/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/prices/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/cijene/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/prices/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/cijene/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/prices/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/cijene/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/paketi/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/paketi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/packages/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/paketi/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/packages/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/paketi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/packages/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/paketi/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/recenzije/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/recenzije/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/recenzije/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/reviews/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/recenzije/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/recenzije/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/blog/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/blog/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/blog/kako-odabrati-servis-za-ciscenje-ureda/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/blog/kako-odabrati-servis-za-ciscenje-ureda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/blog/how-to-choose-an-office-cleaning-service/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/blog/kako-odabrati-servis-za-ciscenje-ureda/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/blog/how-to-choose-an-office-cleaning-service/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/blog/kako-odabrati-servis-za-ciscenje-ureda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/blog/how-to-choose-an-office-cleaning-service/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/blog/kako-odabrati-servis-za-ciscenje-ureda/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/kontakt/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/kontakt/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/kontakt/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/posao/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/posao/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/careers/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/posao/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/careers/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/posao/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/careers/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/posao/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/politika-privatnosti/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/politika-privatnosti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/politika-privatnosti/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/privacy-policy/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/politika-privatnosti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/politika-privatnosti/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/opci-uvjeti-poslovanja/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/opci-uvjeti-poslovanja/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/terms-and-conditions/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/opci-uvjeti-poslovanja/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/terms-and-conditions/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/opci-uvjeti-poslovanja/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/terms-and-conditions/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/opci-uvjeti-poslovanja/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/kolacici/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/kolacici/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/cookie-policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/kolacici/"/>
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/cookie-policy/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/kolacici/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/cookie-policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/kolacici/"/>
+  </url>
 </urlset>
