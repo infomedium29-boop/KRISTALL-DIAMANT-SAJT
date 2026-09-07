@@ -692,3 +692,14 @@ body{background:#fffafd;color:#2c232b}
   .mobile-language .lang-switch{padding:4px;background:rgba(255,255,255,.88)}
   .mobile-language .lang-switch a{width:38px;height:32px;font-size:.64rem!important}
 }
+
+/* ===== V15: CENTER MOBILE MENU CTA TEXT ===== */
+@media(max-width:1020px){
+  .mobile-menu a.mobile-menu-cta{
+    display:flex!important;
+    align-items:center!important;
+    justify-content:center!important;
+    text-align:center!important;
+    width:100%!important;
+  }
+}
