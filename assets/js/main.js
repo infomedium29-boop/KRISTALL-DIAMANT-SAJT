@@ -1,22 +1,25 @@
-// Premium brand reveal – prikazuje se jednom po sesiji. Dodaj ?intro=1 za ponovni pregled.
+// Premium brand reveal. Uvod se pamti samo uz dopuštene funkcionalne postavke.
 const brandIntro=document.querySelector('[data-brand-intro]');
 if(brandIntro){
   const params=new URLSearchParams(window.location.search);
   const forceIntro=params.has('intro');
   const reduceMotion=window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
-  let seen=false;
-  try{
-    if(forceIntro){sessionStorage.removeItem('kd-brand-intro');document.documentElement.classList.remove('intro-seen');}
-    seen=sessionStorage.getItem('kd-brand-intro')==='1';
-  }catch(e){}
-  if(seen&&!forceIntro){
-    brandIntro.remove();
-  }else{
-    document.body.classList.add('intro-lock');
-    requestAnimationFrame(()=>brandIntro.classList.add('play'));
-    try{sessionStorage.setItem('kd-brand-intro','1')}catch(e){}
-    const finish=()=>{document.body.classList.remove('intro-lock');brandIntro.remove();};
-    window.setTimeout(finish,reduceMotion?260:2820);
+  const isHome=location.pathname==='/'||location.pathname.endsWith('/index.html');
+  if(!isHome){brandIntro.remove();}
+  else{
+    const preferenceAllowed=()=>window.KDConsent?.has('preferences')===true;
+    let seen=false;
+    if(preferenceAllowed()){try{if(forceIntro)sessionStorage.removeItem('kd-brand-intro');seen=sessionStorage.getItem('kd-brand-intro')==='1'}catch(e){}}
+    if(seen&&!forceIntro){brandIntro.remove();}
+    else{
+      document.body.classList.add('intro-lock');
+      requestAnimationFrame(()=>brandIntro.classList.add('play'));
+      window.__kdIntroWasShown=true;
+      if(preferenceAllowed()){try{sessionStorage.setItem('kd-brand-intro','1')}catch(e){}}
+      const finish=()=>{document.body.classList.remove('intro-lock');brandIntro.remove();};
+      window.setTimeout(finish,reduceMotion?260:2820);
+    }
+    window.addEventListener('kd:consentchange',e=>{if(e.detail?.preferences&&window.__kdIntroWasShown){try{sessionStorage.setItem('kd-brand-intro','1')}catch(err){}}});
   }
 }
 
@@ -34,7 +37,6 @@ document.querySelectorAll('.faq-btn').forEach(btn=>btn.addEventListener('click',
 
 if('IntersectionObserver' in window){const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target)}}),{threshold:.09});document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));}else{document.querySelectorAll('.reveal').forEach(el=>el.classList.add('visible'))}
 
-const cookie=document.querySelector('.cookie');if(cookie&&!localStorage.getItem('kd-cookie-info')){setTimeout(()=>cookie.classList.add('show'),700)}document.querySelector('[data-cookie-ok]')?.addEventListener('click',()=>{localStorage.setItem('kd-cookie-info','1');cookie.classList.remove('show')});
 
 const toast=document.querySelector('.toast');
 function showToast(msg){if(!toast)return;toast.textContent=msg;toast.classList.add('show');clearTimeout(window.__toastTimer);window.__toastTimer=setTimeout(()=>toast.classList.remove('show'),3200)}
