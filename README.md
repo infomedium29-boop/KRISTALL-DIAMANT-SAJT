@@ -28,3 +28,12 @@ Deploy-ready statički višestranični site za GitHub + Cloudflare Pages.
 
 ## Struktura
 Naslovna, O nama, Usluge, Cijene, Paketi, Recenzije, Blog, Kontakt, Posao, pravne stranice i pojedinačni SEO landing pageovi usluga.
+
+
+## V22 final polish
+- HR/EN language parity restored on all mapped pages.
+- Full GDPR consent restored on Croatian pages and retained on English pages.
+- All quick-contact rows use real icons.
+- Responsive spacing, typography, cards, forms, hover/focus states and mobile sticky actions were polished.
+- Development-facing preview copy was removed from visible pages.
+- Before production, still confirm Web3Forms key and final Facebook/YouTube/TikTok URLs.
