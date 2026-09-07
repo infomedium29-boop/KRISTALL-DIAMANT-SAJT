@@ -23,7 +23,7 @@ Deploy-ready statički višestranični site za GitHub + Cloudflare Pages.
 2. U `kontakt/index.html` zamijeniti `YOUR_WEB3FORMS_ACCESS_KEY` stvarnim Web3Forms ključem. Dok ključ nije postavljen, forma otvara e-mail kao fallback.
 3. Potvrditi završni cjenik vlasnika i unijeti iznose u `/cijene/`. Namjerno nismo prenijeli stare iznose kao konačne.
 4. Potvrditi Facebook, YouTube i TikTok URL-ove. Instagram je povezan na javno pronađen profil `@ciscenje.kristall.diamant`. Ostali su u previewu vidljivi, ali klik prikazuje poruku da profil treba potvrditi.
-5. Zamijeniti dekorativne preview fotografije originalnim fotografijama vlasnika prije produkcije. Nema lažnih fotografija tima. Before/after sekcija je jasno označena kao placeholder u previewu.
+5. Trenutne dekorativne fotografije su visokokvalitetni AVIF vizuali prilagođeni dizajnu i performansama. Ne predstavljaju se kao stvarne reference klijenta. Kada vlasnik dostavi originalne fotografije rada i before/after materijal, mogu se zamijeniti bez promjene layouta.
 6. Provjeriti URL-ove koje koriste postojeće Google Ads kampanje i dopuniti `_redirects` ako postoji landing URL koji nije na popisu.
 7. Tek nakon testiranja formi, 301 redirekcija, mobilne verzije i kampanja spojiti `ciscenjekristalldiamant.hr` na novi Cloudflare projekt.
 
@@ -45,3 +45,6 @@ Navigacija je sada fiksna i lebdi iznad sadržaja kao zaobljeni premium panel s 
 
 ## V5 — rose / blush palette
 Vizualni identitet je prilagođen bojama postojećeg Kristall Diamant weba: vrlo svijetla roza/blush podloga, bijela, charcoal/plum tekstovi i mauve/fuchsia akcenti. Plava paleta iz prethodne verzije je uklonjena.
+
+## Optimizirane fotografije
+Sve fotografije koje se prikazuju na webu koriste AVIF format. Hero je ~143 KB, a ostale fotografije približno 50–106 KB, uz rezolucije dovoljne za oštar desktop i Retina prikaz. Za društvene mreže postoji zaseban `og-cover.jpg`, jer AVIF još nije jednako podržan u svim preview crawlerima; taj JPEG se ne učitava pri normalnom posjetu stranici.

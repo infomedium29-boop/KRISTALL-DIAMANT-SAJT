@@ -24,3 +24,6 @@ U novom previewu nisu vezane direktno na staru domenu jer bi nakon promjene DNS-
 
 ## V3 — logo i intro
 Službeni Kristall Diamant logo integriran je u globalni header/footer. Dodan je session-based intro reveal koji se prikazuje jednom po sesiji i ne mijenja postojeće URL-ove, Google Ads landing stranice ni redirect logiku.
+
+## Vizualna verzija V8
+Dekorativne i servisne fotografije u previewu zamijenjene su optimiziranim AVIF vizualima koji odgovaraju roza/premium identitetu. Ne označavaju se kao stvarne reference ili before/after radovi. Originalne fotografije vlasnika kasnije se mogu zamijeniti na istim mjestima.
