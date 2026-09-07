@@ -1,15 +1,3 @@
-# Kristall Diamant — premium redizajn V14
-
-Deploy-ready statički višestranični site za GitHub + Cloudflare Pages.
-
-## V14
-- kompletan hrvatski + engleski sadržaj
-- premium HR / EN prekidač u lebdećoj desktop navigaciji i mobilnom izborniku
-- English SEO URL-ovi pod `/en/`
-- canonical + hreflang (hr/en/x-default) na svim parovima stranica
-- dvojezični sitemap
-- GDPR/cookie banner, forme i dinamičke poruke rade na oba jezika
-
 # Kristall Diamant — premium redizajn V12
 
 Deploy-ready statički višestranični site za GitHub + Cloudflare Pages.
@@ -40,18 +28,3 @@ Deploy-ready statički višestranični site za GitHub + Cloudflare Pages.
 
 ## Struktura
 Naslovna, O nama, Usluge, Cijene, Paketi, Recenzije, Blog, Kontakt, Posao, pravne stranice i pojedinačni SEO landing pageovi usluga.
-
-## V12 izmjene
-- Svaka usluga s početne stranice sada vodi na vlastitu podstranicu, uključujući novu stranicu **Čišćenje po dogovoru**.
-- Desktop padajući izbornik **Usluge** sadrži sve podstranice usluga.
-- Mobilni izbornik ima zaseban proširivi podizbornik **Usluge**, složen u kompaktan dvostupčani prikaz.
-- Mobilni brzi kontakti redizajnirani su u urednu 3×3 mrežu s ikonama i punim nazivima umjesto kratica TEL / WA / SMS / VIB / MAIL / IG / FB / YT / TT.
-- Breadcrumb naslovi poput „Naslovna / O nama“ ostaju uklonjeni.
-
-## GDPR / kolačići (V13)
-- Dodan je consent manager s jednakom mogućnošću prihvaćanja i odbijanja neobaveznih kategorija.
-- Neobavezne kategorije su početno isključene.
-- Postavke se mogu ponovno otvoriti iz footera.
-- Privola se pamti 180 dana u `kd-consent-v2` i zatim ponovno traži.
-- `consent.js` podržava odgođeno učitavanje skripti označenih kao `type="text/plain" data-consent="analytics|marketing|preferences"` i Google Consent Mode v2 ako se kasnije uvedu Google oznake.
-- Trenutačna verzija ne učitava Google Analytics, Meta Pixel ni Google Ads tracking oznake; prije dodavanja takvih alata ažurirati popis tehnologija u `/kolacici/`.
