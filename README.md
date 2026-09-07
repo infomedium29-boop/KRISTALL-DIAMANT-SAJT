@@ -1,3 +1,5 @@
+KRISTALL DIAMANT — V10 compact premium mobile services
+
 # Kristall Diamant — premium redizajn v3
 
 Deploy-ready statički višestranični site za GitHub + Cloudflare Pages.
