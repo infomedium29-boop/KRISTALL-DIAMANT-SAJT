@@ -1512,3 +1512,20 @@ form .field.full > .btn[type=submit]:hover{
 .mobile-menu a.mobile-menu-cta:after{
   display:none !important;
 }
+
+
+/* V36: ensure white text on active purple language switch buttons */
+.lang-switch a.active,
+.lang-switch a.active:visited,
+.lang-switch a.active:hover,
+.lang-switch a.active:focus-visible,
+.site-header .nav .lang-switch a.active,
+.site-header .nav .lang-switch a.active:visited,
+.site-header .nav .lang-switch a.active:hover,
+.site-header .nav .lang-switch a.active:focus-visible,
+.mobile-language .lang-switch a.active,
+.mobile-language .lang-switch a.active:visited,
+.mobile-language .lang-switch a.active:hover,
+.mobile-language .lang-switch a.active:focus-visible{
+  color:#fff !important;
+}
