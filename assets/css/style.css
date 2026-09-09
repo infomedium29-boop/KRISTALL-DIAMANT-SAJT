@@ -1104,3 +1104,21 @@ form{padding:32px;box-shadow:0 12px 38px rgba(55,37,51,.045)}
   .service-lead .story-img img{height:198px!important}
   .blog-card img{height:168px}
 }
+
+
+/* V26: compact premium cards for the all-services page on mobile */
+@media (max-width: 720px){
+  .page-hero + .section-soft .services-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .page-hero + .section-soft .service-card{border-radius:16px;overflow:hidden;display:flex;flex-direction:column;min-height:auto}
+  .page-hero + .section-soft .service-card img{height:112px!important;aspect-ratio:auto!important;object-fit:cover;object-position:center;display:block}
+  .page-hero + .section-soft .service-body{padding:10px 10px 12px}
+  .page-hero + .section-soft .service-body h3{font-size:.74rem;line-height:1.25;margin:0;min-height:38px;display:flex;align-items:center;justify-content:center;text-align:center}
+  .page-hero + .section-soft .service-body p,
+  .page-hero + .section-soft .service-body .card-link{display:none}
+}
+@media (max-width: 400px){
+  .page-hero + .section-soft .services-grid{gap:10px}
+  .page-hero + .section-soft .service-card img{height:102px!important}
+  .page-hero + .section-soft .service-body{padding:9px 8px 10px}
+  .page-hero + .section-soft .service-body h3{font-size:.69rem;min-height:34px}
+}
