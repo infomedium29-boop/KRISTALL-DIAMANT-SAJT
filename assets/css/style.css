@@ -1111,3 +1111,21 @@ form{padding:32px;box-shadow:0 12px 38px rgba(55,37,51,.045)}
   .section-dark .result img{height:108px}
   .section-dark .result span{font-size:.64rem;padding:8px 7px 10px;min-height:44px}
 }
+
+
+/* V24 polish: make mobile imagery more compact and premium across the site */
+@media (max-width: 720px){
+  .split{gap:22px}
+  .story-img{border-radius:18px;overflow:hidden;margin:0 auto}
+  .story-img img{height:250px!important;aspect-ratio:auto!important;object-fit:cover;object-position:center}
+  .service-lead .story-img img{height:224px!important}
+  .blog-card img{height:182px;aspect-ratio:auto;object-fit:cover}
+  .service-card img{object-position:center}
+}
+@media (max-width: 480px){
+  .section{padding:64px 0}
+  .section-sm{padding:42px 0}
+  .story-img img{height:220px!important}
+  .service-lead .story-img img{height:198px!important}
+  .blog-card img{height:168px}
+}
