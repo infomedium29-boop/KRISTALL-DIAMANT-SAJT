@@ -1495,3 +1495,20 @@ form .field.full > .btn[type=submit]:hover{
   .mobile-sticky{gap:6px;left:9px;right:9px}
   .mobile-sticky a{min-height:44px;padding:10px 5px;font-size:.61rem}
 }
+
+
+/* V35: ensure white text on purple header/mobile CTA buttons */
+.site-header .nav a.nav-cta,
+.site-header .nav a.nav-cta:visited,
+.site-header .nav a.nav-cta:hover,
+.site-header .nav a.nav-cta:focus-visible,
+.mobile-menu a.mobile-menu-cta,
+.mobile-menu a.mobile-menu-cta:visited,
+.mobile-menu a.mobile-menu-cta:hover,
+.mobile-menu a.mobile-menu-cta:focus-visible{
+  color:#fff !important;
+}
+.site-header .nav a.nav-cta:after,
+.mobile-menu a.mobile-menu-cta:after{
+  display:none !important;
+}
