@@ -1294,3 +1294,59 @@ form .field.full > .btn[type=submit]:hover{
     margin-top:2px;
   }
 }
+
+/* V29: small, subtle premium privacy checkbox */
+.privacy-check{
+  grid-template-columns:15px minmax(0,1fr)!important;
+  gap:10px!important;
+  align-items:start!important;
+  padding:10px 12px!important;
+}
+.privacy-check input[type="checkbox"]{
+  width:15px!important;
+  height:15px!important;
+  min-width:15px!important;
+  min-height:15px!important;
+  max-width:15px!important;
+  max-height:15px!important;
+  padding:0!important;
+  margin:2px 0 0!important;
+  border:1px solid rgba(112,89,104,.38)!important;
+  border-radius:4px!important;
+  background:#fff!important;
+  box-shadow:none!important;
+}
+.privacy-check input[type="checkbox"]::after{
+  width:6px!important;
+  height:3px!important;
+  border-width:1.5px!important;
+  margin-top:-1px!important;
+}
+.privacy-check input[type="checkbox"]:hover{
+  border-color:rgba(184,74,170,.58)!important;
+  box-shadow:0 0 0 2px rgba(184,74,170,.06)!important;
+}
+.privacy-check input[type="checkbox"]:focus-visible{
+  box-shadow:0 0 0 3px rgba(184,74,170,.10)!important;
+}
+.privacy-check input[type="checkbox"]:checked{
+  background:#c653b7!important;
+  border-color:#c653b7!important;
+  box-shadow:none!important;
+}
+@media(max-width:720px){
+  .privacy-check{
+    grid-template-columns:15px minmax(0,1fr)!important;
+    gap:9px!important;
+    padding:9px 10px!important;
+  }
+  .privacy-check input[type="checkbox"]{
+    width:15px!important;
+    height:15px!important;
+    min-width:15px!important;
+    min-height:15px!important;
+    max-width:15px!important;
+    max-height:15px!important;
+    margin-top:2px!important;
+  }
+}
