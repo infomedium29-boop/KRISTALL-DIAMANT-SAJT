@@ -1403,3 +1403,20 @@ form .field.full > .btn[type=submit]:hover{
   .mobile-menu .quick-links{gap:10px}
   .mobile-menu .quick-links a{width:44px;height:44px}
 }
+
+
+/* V32: center TikTok icon and remove extra visual ring */
+.quick-links a[aria-label="TikTok"]{
+  display:grid;
+  place-items:center;
+  background:#111111;
+  color:#fff;
+  box-shadow:0 8px 18px rgba(52,39,50,.10);
+}
+.quick-links a[aria-label="TikTok"] svg{
+  display:block;
+  width:18px;
+  height:18px;
+  margin:0;
+  transform:none;
+}
