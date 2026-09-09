@@ -1420,3 +1420,17 @@ form .field.full > .btn[type=submit]:hover{
   margin:0;
   transform:none;
 }
+
+/* V33: WhatsApp brand green in mobile sticky CTA */
+@media(max-width:720px){
+  .mobile-sticky a:nth-child(2){
+    background:#25D366;
+    color:#fff;
+    border-right:0;
+  }
+  .mobile-sticky a:nth-child(2):hover,
+  .mobile-sticky a:nth-child(2):active{
+    background:#1fbd5a;
+    color:#fff;
+  }
+}
