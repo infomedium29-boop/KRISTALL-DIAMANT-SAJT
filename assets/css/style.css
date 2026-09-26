@@ -1620,3 +1620,18 @@ form .field.full > .btn[type=submit]:hover{
 }
 @media(max-width:360px){.owner-package-grid{grid-template-columns:1fr}.owner-package-card h3{font-size:1.5rem}}
 @media(prefers-reduced-motion:reduce){.owner-package-card{transition:none}.owner-package-card:hover{transform:none}}
+
+
+/* V40 — homepage family-service emphasis and owner-provided hero line */
+.hero .hero-family-label{display:flex;align-items:baseline;justify-content:center;flex-wrap:wrap;gap:8px 12px;text-transform:none;line-height:1.18;margin-bottom:18px}
+.hero .hero-family-label strong{color:#fff;font-family:var(--sans);font-size:clamp(1.26rem,2.4vw,1.72rem);letter-spacing:-.025em;font-weight:850}
+.hero .hero-family-label span{color:#f5d5ed;font-family:var(--sans);font-size:.72rem;letter-spacing:.13em;font-weight:750;text-transform:uppercase}
+.hero .hero-tagline{color:#ffe0f4;font-family:var(--serif);font-size:clamp(1.18rem,2.4vw,1.65rem);font-weight:500;line-height:1.32;max-width:720px;margin:-2px auto 17px;text-wrap:balance;text-shadow:0 2px 16px rgba(36,23,32,.20)}
+@media(max-width:720px){
+  .hero,.hero-content{min-height:720px!important}
+  .hero .hero-family-label{flex-direction:column;align-items:center;gap:4px;margin-bottom:14px}
+  .hero .hero-family-label strong{font-size:1.35rem}
+  .hero .hero-family-label span{font-size:.65rem}
+  .hero .hero-tagline{font-size:clamp(1.14rem,5vw,1.32rem);max-width:340px;margin:0 auto 13px;line-height:1.33}
+}
+@media(max-width:390px){.hero .hero-tagline{font-size:1.13rem}}
