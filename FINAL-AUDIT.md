@@ -26,9 +26,9 @@ Final owner-review build prepared 2026-09-07.
 ## Before production domain switch
 These values still depend on the owner and should be supplied before final production launch:
 1. Replace `YOUR_WEB3FORMS_ACCESS_KEY` with the real Web3Forms access key.
-2. Add confirmed Facebook URL.
+2. Facebook URL connected (owner-provided).
 3. Add confirmed YouTube URL.
-4. Add confirmed TikTok URL.
+4. TikTok URL connected (owner-provided).
 5. Reconfirm public prices before publishing specific numeric price amounts.
 
 The site can be shown to the owner on a Cloudflare Pages preview URL now.

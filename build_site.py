@@ -6,6 +6,8 @@ PHONE_DISPLAY='097 752 4712'
 PHONE='+385977524712'
 EMAIL='info@ciscenjekristalldiamant.hr'
 INSTAGRAM='https://www.instagram.com/ciscenje.kristall.diamant/'
+FACEBOOK='https://www.facebook.com/share/19FYWXA6xB/'
+TIKTOK='https://www.tiktok.com/@ciscenjezagreb?_r=1&amp;_t=ZN-9A0ae3PaA7i'
 ADDRESS='Tršćanska 1, Zagreb'
 
 services=[
@@ -40,9 +42,9 @@ social_html=f'''<div class="quick-links" aria-label="Brzi kontakti">
 <a href="viber://chat?number=%2B385977524712" title="Viber" aria-label="Viber"><span class="sr-only">Viber</span>{icon_svg('viber')}</a>
 <a href="mailto:{EMAIL}" title="E-mail" aria-label="E-mail"><span class="sr-only">E-mail</span>{icon_svg('mail')}</a>
 <a href="{INSTAGRAM}" target="_blank" rel="noopener" title="Instagram" aria-label="Instagram"><span class="sr-only">Instagram</span>{icon_svg('instagram')}</a>
-<a href="#" class="pending-social" data-channel="Facebook" title="Facebook – profil potvrditi" aria-label="Facebook"><span class="sr-only">Facebook</span>{icon_svg('facebook')}</a>
+<a href="{FACEBOOK}" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook"><span class="sr-only">Facebook</span>{icon_svg('facebook')}</a>
 <a href="#" class="pending-social" data-channel="YouTube" title="YouTube – kanal potvrditi" aria-label="YouTube"><span class="sr-only">YouTube</span>{icon_svg('youtube')}</a>
-<a href="#" class="pending-social" data-channel="TikTok" title="TikTok – profil potvrditi" aria-label="TikTok"><span class="sr-only">TikTok</span>{icon_svg('tiktok')}</a>
+<a href="{TIKTOK}" target="_blank" rel="noopener noreferrer" aria-label="TikTok" title="TikTok"><span class="sr-only">TikTok</span>{icon_svg('tiktok')}</a>
 </div>'''
 
 mobile_social_html=f'''<div class="mobile-quick" aria-label="Brzi kontakti">
@@ -54,9 +56,9 @@ mobile_social_html=f'''<div class="mobile-quick" aria-label="Brzi kontakti">
 <a href="viber://chat?number=%2B385977524712"><span class="mobile-quick-icon">{icon_svg('viber')}</span><span>Viber</span></a>
 <a href="mailto:{EMAIL}"><span class="mobile-quick-icon">{icon_svg('mail')}</span><span>E-mail</span></a>
 <a href="{INSTAGRAM}" target="_blank" rel="noopener"><span class="mobile-quick-icon">{icon_svg('instagram')}</span><span>Instagram</span></a>
-<a href="#" class="pending-social" data-channel="Facebook"><span class="mobile-quick-icon">{icon_svg('facebook')}</span><span>Facebook</span></a>
+<a href="{FACEBOOK}" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook"><span class="mobile-quick-icon">{icon_svg('facebook')}</span><span>Facebook</span></a>
 <a href="#" class="pending-social" data-channel="YouTube"><span class="mobile-quick-icon">{icon_svg('youtube')}</span><span>YouTube</span></a>
-<a href="#" class="pending-social" data-channel="TikTok"><span class="mobile-quick-icon">{icon_svg('tiktok')}</span><span>TikTok</span></a>
+<a href="{TIKTOK}" target="_blank" rel="noopener noreferrer" aria-label="TikTok" title="TikTok"><span class="mobile-quick-icon">{icon_svg('tiktok')}</span><span>TikTok</span></a>
 </div></div>'''
 
 

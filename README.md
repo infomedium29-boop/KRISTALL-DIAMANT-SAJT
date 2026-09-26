@@ -12,7 +12,7 @@ Deploy-ready statički višestranični site za GitHub + Cloudflare Pages.
 1. Ne dirati postojeći WordPress dok Google Ads rade. Novi site prvo testirati na Cloudflare preview URL-u.
 2. U `kontakt/index.html` zamijeniti `YOUR_WEB3FORMS_ACCESS_KEY` stvarnim Web3Forms ključem. Dok ključ nije postavljen, forma otvara e-mail kao fallback.
 3. Potvrditi završni cjenik vlasnika i unijeti iznose u `/cijene/`. Namjerno nismo prenijeli stare iznose kao konačne.
-4. Potvrditi Facebook, YouTube i TikTok URL-ove. Instagram je povezan na javno pronađen profil `@ciscenje.kristall.diamant`. Ostali su u previewu vidljivi, ali klik prikazuje poruku da profil treba potvrditi.
+4. Facebook i TikTok sada vode na poveznice koje je vlasnik dostavio; Instagram ostaje povezan. YouTube poveznica još čeka potvrdu i nije aktivna.
 5. Trenutne dekorativne fotografije su optimizirani AVIF vizuali i ne predstavljaju se kao stvarne reference klijenta. Kada vlasnik dostavi originalne fotografije rada i before/after materijal, mogu se zamijeniti bez promjene layouta.
 6. Provjeriti URL-ove koje koriste postojeće Google Ads kampanje i dopuniti `_redirects` ako postoji landing URL koji nije na popisu.
 7. Tek nakon testiranja formi, 301 redirekcija, mobilne verzije i kampanja spojiti `ciscenjekristalldiamant.hr` na novi Cloudflare projekt.
@@ -36,7 +36,7 @@ Naslovna, O nama, Usluge, Cijene, Paketi, Recenzije, Blog, Kontakt, Posao, pravn
 - All quick-contact rows use real icons.
 - Responsive spacing, typography, cards, forms, hover/focus states and mobile sticky actions were polished.
 - Development-facing preview copy was removed from visible pages.
-- Before production, still confirm Web3Forms key and final Facebook/YouTube/TikTok URLs.
+- Before production, still confirm the Web3Forms key and the YouTube URL. Facebook and TikTok are connected to owner-provided URLs.
 
 
 ## V38 – vlasnikovi novi tekstovi
