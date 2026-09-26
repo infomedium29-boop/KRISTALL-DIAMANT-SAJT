@@ -1529,3 +1529,42 @@ form .field.full > .btn[type=submit]:hover{
 .mobile-language .lang-switch a.active:focus-visible{
   color:#fff !important;
 }
+
+
+/* V37 — new Kristall Servis circular logo integration */
+.brand img.brand-logo{
+  border-radius:50%;
+  background:transparent;
+  box-shadow:0 4px 14px rgba(18,48,39,.16);
+  object-fit:contain;
+}
+.site-header .brand img.brand-logo{
+  width:48px;
+  height:48px;
+  flex-basis:48px;
+}
+.footer .brand img.brand-logo{
+  width:52px;
+  height:52px;
+  flex-basis:52px;
+}
+.brand-intro-mark{
+  aspect-ratio:1/1;
+  width:min(55vw,320px);
+}
+.intro-logo{
+  border-radius:50%;
+  object-fit:contain;
+}
+.intro-logo-reveal{
+  border-radius:50%;
+  filter:drop-shadow(0 16px 28px rgba(18,48,39,.14));
+}
+@media(max-width:720px){
+  .brand-intro-mark{width:min(61vw,232px);margin-bottom:22px}
+  .site-header .brand img.brand-logo{width:42px;height:42px;flex-basis:42px}
+  .footer .brand img.brand-logo{width:48px;height:48px;flex-basis:48px}
+}
+@media(max-width:430px){
+  .brand-intro-mark{width:min(59vw,218px);margin-bottom:22px}
+}
