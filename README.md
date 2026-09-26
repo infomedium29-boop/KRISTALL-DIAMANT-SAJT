@@ -37,3 +37,7 @@ Naslovna, O nama, Usluge, Cijene, Paketi, Recenzije, Blog, Kontakt, Posao, pravn
 - Responsive spacing, typography, cards, forms, hover/focus states and mobile sticky actions were polished.
 - Development-facing preview copy was removed from visible pages.
 - Before production, still confirm Web3Forms key and final Facebook/YouTube/TikTok URLs.
+
+
+## V38 – vlasnikovi novi tekstovi
+Statički HTML je aktualni sadržaj. Cijeli popis od 33 dodatna posla i sve nove opise vidjeti na `/paketi/` i `/usluge/ciscenje-po-dogovoru/`, uz engleske inačice. Stari `build_site.py` ne pokretati jer je naslijeđeni generator iz stare verzije. Pregled izmjena: `PROMJENE-V38-NA-PREGLED.md`.
