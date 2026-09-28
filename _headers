@@ -1,14 +1,6 @@
-/*
-  X-Content-Type-Options: nosniff
-  Referrer-Policy: strict-origin-when-cross-origin
-  Permissions-Policy: camera=(), microphone=(), geolocation=()
-  X-Frame-Options: SAMEORIGIN
-
-/assets/img/*
-  Cache-Control: public, max-age=2592000, stale-while-revalidate=86400
-
-/assets/css/*
-  Cache-Control: public, max-age=3600, must-revalidate
-
-/assets/js/*
-  Cache-Control: public, max-age=3600, must-revalidate
+/cjenici/aktualni.csv
+  Cache-Control: public, max-age=300, must-revalidate
+/cjenici/aktualni.xml
+  Cache-Control: public, max-age=300, must-revalidate
+/cjenici/arhiva/*
+  Cache-Control: public, max-age=31536000, immutable

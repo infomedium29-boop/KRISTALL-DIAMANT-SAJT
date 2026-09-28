@@ -1671,3 +1671,31 @@ form .field.full > .btn[type=submit]:hover{
  .v43-carpet-price{padding:20px;gap:12px}.v43-carpet-price>strong{font-size:1.25rem}
 }
 @media(max-width:365px){.hero .hero-family-label strong.v43-large-family{font-size:1.7rem}.hero .hero-tagline.v43-large-slogan{font-size:1.45rem}.v43-price-row{font-size:.79rem;gap:10px}.v43-price-row strong{font-size:.79rem}}
+
+/* V45: visible reference prices + digital price lists */
+.v45-price-pair{display:flex;flex-direction:column;align-items:flex-end;gap:4px;min-width:125px;text-align:right}
+.v43-price-row .v45-price-pair .v45-price-current{font-size:.98rem;color:#68245e;white-space:nowrap}
+.v43-price-row .v45-price-anchor,.v45-price-anchor{display:block;color:#63515f;font-size:.67rem;line-height:1.5;font-weight:500;white-space:normal}
+.v45-price-anchor b{font-weight:850;color:#632153}
+.v43-carpet-price .v45-carpet-pair{display:flex;flex-direction:column;align-items:flex-end;gap:5px;text-align:right;min-width:0}
+.v43-carpet-price .v45-carpet-pair strong{font-size:clamp(1.3rem,3vw,1.75rem);color:#fff;white-space:nowrap}
+.v43-carpet-price .v45-carpet-pair small{color:#ffe8fb;font-size:.73rem;line-height:1.5}
+.v45-extra-price{padding-block:50px;background:#fff9ff}
+.v45-extra-price h2{font-family:var(--serif);font-size:clamp(1.75rem,3vw,2.5rem);margin:9px 0 23px}
+.v45-one-price{display:flex;align-items:center;justify-content:space-between;gap:20px;border:1px solid #efc8e9;border-radius:17px;background:#fff;padding:20px 25px;max-width:740px}
+.v45-one-price>span{color:#453243;font-weight:700}
+.v45-inline-anchor{display:block;margin:6px 0 0;font-size:.76rem;font-weight:650;color:#7e3470;line-height:1.6}
+.v45-download-section{background:linear-gradient(145deg,#fff8ff,#ffe9ff);padding-block:65px}
+.v45-download-card{border:1px solid #eeb2e8;border-radius:22px;background:#fff;box-shadow:0 18px 48px rgba(73,28,62,.08);padding:34px 38px;display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,290px);gap:30px;align-items:center}
+.v45-download-card h2,.v45-archive-list h2{font-family:var(--serif);font-size:clamp(1.75rem,3vw,2.5rem);margin:10px 0 12px;color:#40263d}
+.v45-download-card p{line-height:1.7;color:#574553;margin:0 0 10px}
+.v45-download-card .v45-download-note,.v45-download-note{font-size:.8rem;color:#6d5567;line-height:1.65}
+.v45-download-actions{display:flex;flex-direction:column;gap:11px;align-items:stretch}
+.v45-download-actions .btn{text-align:center;justify-content:center}
+.v45-archive-link{font-weight:750;font-size:.8rem;color:#7e2674;text-decoration:underline;text-underline-offset:4px;text-align:center;margin-top:4px}
+.v45-archive-list{margin:26px 0 0;background:#fff;padding:25px 30px;border:1px solid #eeb2e8;border-radius:18px}
+.v45-archive-list p{color:#635061;line-height:1.6}
+.v45-archive-row{display:flex;gap:16px;align-items:center;justify-content:space-between;border-top:1px solid #f0dbea;border-bottom:1px solid #f0dbea;padding:16px 0}
+.v45-archive-row>span{font-weight:750;color:#56364d}.v45-archive-row>div{display:flex;gap:15px;flex-wrap:wrap}.v45-archive-row a{font-weight:800;color:#84277a;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:720px){.v45-price-pair{min-width:112px}.v43-price-row .v45-price-anchor{font-size:.66rem}.v45-download-card{grid-template-columns:1fr;padding:25px 20px;gap:17px}.v45-download-section{padding-block:45px}.v45-one-price{padding:17px;gap:10px}.v45-archive-list{padding:20px}.v45-archive-row{align-items:flex-start;flex-direction:column}}
+@media(max-width:380px){.v43-price-row{gap:8px}.v45-price-pair{min-width:105px}.v43-price-row .v45-price-anchor{font-size:.62rem}.v43-carpet-price .v45-carpet-pair strong{font-size:1.13rem}}

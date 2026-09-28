@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ciscenjekristalldiamant.hr/cijene/</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/cijene/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/prices/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/cijene/" />
@@ -51,7 +51,7 @@
   </url>
   <url>
     <loc>https://ciscenjekristalldiamant.hr/en/prices/</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/cijene/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/prices/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/cijene/" />
@@ -251,5 +251,19 @@
     <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/redovno-ciscenje/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/regular-cleaning/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/redovno-ciscenje/" />
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/cjenici/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/cjenici/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/pricelists/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/cjenici/" />
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/pricelists/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/cjenici/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/pricelists/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/cjenici/" />
   </url>
 </urlset>

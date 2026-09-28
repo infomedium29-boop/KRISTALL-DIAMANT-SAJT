@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='utf-8'?>
+<cjenik verzija="1" jezik="hr" valuta="EUR" referentni_datum_sidrene_cijene="2026-09-10" vrijeme_pripreme_utc="20260928T144331Z" poslovnica="KD01" adresa="Tršćanska 1, Zagreb" vrsta_objekta="uslužni objekt">
+  <pruzatelj>
+    <naziv>Kristall Diamant, obrt za usluge</naziv>
+    <adresa>Tršćanska 1, Zagreb</adresa>
+    <oib>01142261377</oib>
+  </pruzatelj>
+  <usluge>
+    <usluga sifra="BIO01" vrsta_cijene="fiksna">
+      <naziv_usluge>Kutna garnitura L</naziv_usluge>
+      <vrsta_cijene>fiksna</vrsta_cijene>
+      <jedinica_mjere>usluga</jedinica_mjere>
+      <maloprodajna_cijena_eur>60.00</maloprodajna_cijena_eur>
+      <sidrena_cijena_2026_09_10_eur>60.00</sidrena_cijena_2026_09_10_eur>
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>60.00 EUR</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>60.00 EUR</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Bio Light, ne kemijsko čišćenje.</napomena>
+    </usluga>
+    <usluga sifra="BIO02" vrsta_cijene="fiksna">
+      <naziv_usluge>Kutna garnitura XL</naziv_usluge>
+      <vrsta_cijene>fiksna</vrsta_cijene>
+      <jedinica_mjere>usluga</jedinica_mjere>
+      <maloprodajna_cijena_eur>80.00</maloprodajna_cijena_eur>
+      <sidrena_cijena_2026_09_10_eur>80.00</sidrena_cijena_2026_09_10_eur>
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>80.00 EUR</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>80.00 EUR</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Bio Light, ne kemijsko čišćenje.</napomena>
+    </usluga>
+    <usluga sifra="BIO03" vrsta_cijene="fiksna">
+      <naziv_usluge>Kutna garnitura XXL</naziv_usluge>
+      <vrsta_cijene>fiksna</vrsta_cijene>
+      <jedinica_mjere>usluga</jedinica_mjere>
+      <maloprodajna_cijena_eur>100.00</maloprodajna_cijena_eur>
+      <sidrena_cijena_2026_09_10_eur>100.00</sidrena_cijena_2026_09_10_eur>
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>100.00 EUR</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>100.00 EUR</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Bio Light, ne kemijsko čišćenje.</napomena>
+    </usluga>
+    <usluga sifra="BIO04" vrsta_cijene="fiksna">
+      <naziv_usluge>Kutna garnitura XXXL</naziv_usluge>
+      <vrsta_cijene>fiksna</vrsta_cijene>
+      <jedinica_mjere>usluga</jedinica_mjere>
+      <maloprodajna_cijena_eur>110.00</maloprodajna_cijena_eur>
+      <sidrena_cijena_2026_09_10_eur>110.00</sidrena_cijena_2026_09_10_eur>
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>110.00 EUR</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>110.00 EUR</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Bio Light, ne kemijsko čišćenje.</napomena>
+    </usluga>
+    <usluga sifra="BIO05" vrsta_cijene="fiksna">
+      <naziv_usluge>Madrac kutne garniture</naziv_usluge>
+      <vrsta_cijene>fiksna</vrsta_cijene>
+      <jedinica_mjere>usluga</jedinica_mjere>
+      <maloprodajna_cijena_eur>10.00</maloprodajna_cijena_eur>
+      <sidrena_cijena_2026_09_10_eur>10.00</sidrena_cijena_2026_09_10_eur>
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>10.00 EUR</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>10.00 EUR</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Bio Light, ne kemijsko čišćenje.</napomena>
+    </usluga>
+    <usluga sifra="BIO06" vrsta_cijene="fiksna">
+      <naziv_usluge>Dezinfekcija kutne garniture</naziv_usluge>
+      <vrsta_cijene>fiksna</vrsta_cijene>
+      <jedinica_mjere>usluga</jedinica_mjere>
+      <maloprodajna_cijena_eur>20.00</maloprodajna_cijena_eur>
+      <sidrena_cijena_2026_09_10_eur>20.00</sidrena_cijena_2026_09_10_eur>
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>20.00 EUR</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>20.00 EUR</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Bio Light, ne kemijsko čišćenje.</napomena>
+    </usluga>
+    <usluga sifra="BIO07" vrsta_cijene="fiksna">
+      <naziv_usluge>Fotelja</naziv_usluge>
+      <vrsta_cijene>fiksna</vrsta_cijene>
+      <jedinica_mjere>kom</jedinica_mjere>
+      <maloprodajna_cijena_eur>30.00</maloprodajna_cijena_eur>
+      <sidrena_cijena_2026_09_10_eur>30.00</sidrena_cijena_2026_09_10_eur>
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>30.00 EUR / kom</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>30.00 EUR / kom</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Bio Light, ne kemijsko čišćenje.</napomena>
+    </usluga>
+    <usluga sifra="BIO08" vrsta_cijene="fiksna">
+      <naziv_usluge>Dvosjed</naziv_usluge>
+      <vrsta_cijene>fiksna</vrsta_cijene>
+      <jedinica_mjere>kom</jedinica_mjere>
+      <maloprodajna_cijena_eur>40.00</maloprodajna_cijena_eur>
+      <sidrena_cijena_2026_09_10_eur>40.00</sidrena_cijena_2026_09_10_eur>
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>40.00 EUR / kom</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>40.00 EUR / kom</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Bio Light, ne kemijsko čišćenje.</napomena>
+    </usluga>
+    <usluga sifra="BIO09" vrsta_cijene="fiksna">
+      <naziv_usluge>Trosjed</naziv_usluge>
+      <vrsta_cijene>fiksna</vrsta_cijene>
+      <jedinica_mjere>kom</jedinica_mjere>
+      <maloprodajna_cijena_eur>50.00</maloprodajna_cijena_eur>
+      <sidrena_cijena_2026_09_10_eur>50.00</sidrena_cijena_2026_09_10_eur>
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>50.00 EUR / kom</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>50.00 EUR / kom</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Bio Light, ne kemijsko čišćenje.</napomena>
+    </usluga>
+    <usluga sifra="BIO10" vrsta_cijene="fiksna">
+      <naziv_usluge>Tabure</naziv_usluge>
+      <vrsta_cijene>fiksna</vrsta_cijene>
+      <jedinica_mjere>kom</jedinica_mjere>
+      <maloprodajna_cijena_eur>15.00</maloprodajna_cijena_eur>
+      <sidrena_cijena_2026_09_10_eur>15.00</sidrena_cijena_2026_09_10_eur>
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>15.00 EUR / kom</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>15.00 EUR / kom</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Bio Light, ne kemijsko čišćenje.</napomena>
+    </usluga>
+    <usluga sifra="BIO11" vrsta_cijene="fiksna">
+      <naziv_usluge>Stolac – samo sjedalo</naziv_usluge>
+      <vrsta_cijene>fiksna</vrsta_cijene>
+      <jedinica_mjere>kom</jedinica_mjere>
+      <maloprodajna_cijena_eur>10.00</maloprodajna_cijena_eur>
+      <sidrena_cijena_2026_09_10_eur>10.00</sidrena_cijena_2026_09_10_eur>
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>10.00 EUR / kom</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>10.00 EUR / kom</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Bio Light, ne kemijsko čišćenje.</napomena>
+    </usluga>
+    <usluga sifra="BIO12" vrsta_cijene="fiksna">
+      <naziv_usluge>Stolac – sjedalo i naslon</naziv_usluge>
+      <vrsta_cijene>fiksna</vrsta_cijene>
+      <jedinica_mjere>kom</jedinica_mjere>
+      <maloprodajna_cijena_eur>15.00</maloprodajna_cijena_eur>
+      <sidrena_cijena_2026_09_10_eur>15.00</sidrena_cijena_2026_09_10_eur>
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>15.00 EUR / kom</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>15.00 EUR / kom</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Bio Light, ne kemijsko čišćenje.</napomena>
+    </usluga>
+    <usluga sifra="BIO13" vrsta_cijene="fiksna">
+      <naziv_usluge>Dlake kućnih ljubimaca – namještaj</naziv_usluge>
+      <vrsta_cijene>fiksna</vrsta_cijene>
+      <jedinica_mjere>usluga</jedinica_mjere>
+      <maloprodajna_cijena_eur>20.00</maloprodajna_cijena_eur>
+      <sidrena_cijena_2026_09_10_eur>20.00</sidrena_cijena_2026_09_10_eur>
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>20.00 EUR</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>20.00 EUR</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Bio Light, ne kemijsko čišćenje.</napomena>
+    </usluga>
+    <usluga sifra="BIO14" vrsta_cijene="fiksna">
+      <naziv_usluge>Dlake kućnih ljubimaca – automobil</naziv_usluge>
+      <vrsta_cijene>fiksna</vrsta_cijene>
+      <jedinica_mjere>usluga</jedinica_mjere>
+      <maloprodajna_cijena_eur>20.00</maloprodajna_cijena_eur>
+      <sidrena_cijena_2026_09_10_eur>20.00</sidrena_cijena_2026_09_10_eur>
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>20.00 EUR</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>20.00 EUR</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Bio Light, ne kemijsko čišćenje.</napomena>
+    </usluga>
+    <usluga sifra="DOD01" vrsta_cijene="fiksna">
+      <naziv_usluge>Peglanje</naziv_usluge>
+      <vrsta_cijene>fiksna</vrsta_cijene>
+      <jedinica_mjere>sat</jedinica_mjere>
+      <maloprodajna_cijena_eur>10.00</maloprodajna_cijena_eur>
+      <sidrena_cijena_2026_09_10_eur>10.00</sidrena_cijena_2026_09_10_eur>
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>10.00 EUR / sat</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>10.00 EUR / sat</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Dodatna usluga prema dogovoru.</napomena>
+    </usluga>
+    <usluga sifra="BIO15" vrsta_cijene="raspon">
+      <naziv_usluge>Čišćenje tepiha (ovisno o materijalu)</naziv_usluge>
+      <vrsta_cijene>raspon</vrsta_cijene>
+      <jedinica_mjere>m²</jedinica_mjere>
+      <maloprodajna_cijena_eur>7.00</maloprodajna_cijena_eur>
+      <sidrena_cijena_2026_09_10_eur>7.00</sidrena_cijena_2026_09_10_eur>
+      <raspon_do_eur>9.00</raspon_do_eur>
+      <sidreni_raspon_do_eur>9.00</sidreni_raspon_do_eur>
+      <prikaz_maloprodajne_cijene>7.00–9.00 EUR / m²</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>7.00–9.00 EUR / m²</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Točna cijena unutar raspona ovisi o materijalu.</napomena>
+    </usluga>
+    <usluga sifra="IND01" vrsta_cijene="po_individualnoj_procjeni">
+      <naziv_usluge>Redovno čišćenje doma – EXPRESS</naziv_usluge>
+      <vrsta_cijene>po_individualnoj_procjeni</vrsta_cijene>
+      <jedinica_mjere>dogovoreni_opseg</jedinica_mjere>
+      <maloprodajna_cijena_eur />
+      <sidrena_cijena_2026_09_10_eur />
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>Prema individualnoj procjeni</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>Prema individualnoj procjeni</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Površina i volumen prostora; Stupanj zaprljanosti prostora (0–10); Stupanj upijenosti prljavštine (0–10); Stupanj zakrčenosti prostora (0–10); Odabrani paket čišćenja (0–10); Opseg čišćenja (0–10); Zahtjevnost čišćenja (0–10); Posebne želje i zahtjevi (0–10); Broj čišćenja mjesečno (0–10); Broj potrebnih članova ekipe (0–10); Vrsta površina (0–10). Cijena se individualno dogovara i potvrđuje nakon procjene; nisu dostavljene fiksne jedinične tarife.</napomena>
+    </usluga>
+    <usluga sifra="IND02" vrsta_cijene="po_individualnoj_procjeni">
+      <naziv_usluge>Redovno čišćenje doma – ŠPAR</naziv_usluge>
+      <vrsta_cijene>po_individualnoj_procjeni</vrsta_cijene>
+      <jedinica_mjere>dogovoreni_opseg</jedinica_mjere>
+      <maloprodajna_cijena_eur />
+      <sidrena_cijena_2026_09_10_eur />
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>Prema individualnoj procjeni</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>Prema individualnoj procjeni</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Površina i volumen prostora; Stupanj zaprljanosti prostora (0–10); Stupanj upijenosti prljavštine (0–10); Stupanj zakrčenosti prostora (0–10); Odabrani paket čišćenja (0–10); Opseg čišćenja (0–10); Zahtjevnost čišćenja (0–10); Posebne želje i zahtjevi (0–10); Broj čišćenja mjesečno (0–10); Broj potrebnih članova ekipe (0–10); Vrsta površina (0–10). Cijena se individualno dogovara i potvrđuje nakon procjene; nisu dostavljene fiksne jedinične tarife.</napomena>
+    </usluga>
+    <usluga sifra="IND03" vrsta_cijene="po_individualnoj_procjeni">
+      <naziv_usluge>Redovno čišćenje doma – ARGENTUM</naziv_usluge>
+      <vrsta_cijene>po_individualnoj_procjeni</vrsta_cijene>
+      <jedinica_mjere>dogovoreni_opseg</jedinica_mjere>
+      <maloprodajna_cijena_eur />
+      <sidrena_cijena_2026_09_10_eur />
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>Prema individualnoj procjeni</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>Prema individualnoj procjeni</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Površina i volumen prostora; Stupanj zaprljanosti prostora (0–10); Stupanj upijenosti prljavštine (0–10); Stupanj zakrčenosti prostora (0–10); Odabrani paket čišćenja (0–10); Opseg čišćenja (0–10); Zahtjevnost čišćenja (0–10); Posebne želje i zahtjevi (0–10); Broj čišćenja mjesečno (0–10); Broj potrebnih članova ekipe (0–10); Vrsta površina (0–10). Cijena se individualno dogovara i potvrđuje nakon procjene; nisu dostavljene fiksne jedinične tarife.</napomena>
+    </usluga>
+    <usluga sifra="IND04" vrsta_cijene="po_individualnoj_procjeni">
+      <naziv_usluge>Redovno čišćenje doma – PLATINUM</naziv_usluge>
+      <vrsta_cijene>po_individualnoj_procjeni</vrsta_cijene>
+      <jedinica_mjere>dogovoreni_opseg</jedinica_mjere>
+      <maloprodajna_cijena_eur />
+      <sidrena_cijena_2026_09_10_eur />
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>Prema individualnoj procjeni</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>Prema individualnoj procjeni</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Površina i volumen prostora; Stupanj zaprljanosti prostora (0–10); Stupanj upijenosti prljavštine (0–10); Stupanj zakrčenosti prostora (0–10); Odabrani paket čišćenja (0–10); Opseg čišćenja (0–10); Zahtjevnost čišćenja (0–10); Posebne želje i zahtjevi (0–10); Broj čišćenja mjesečno (0–10); Broj potrebnih članova ekipe (0–10); Vrsta površina (0–10). Cijena se individualno dogovara i potvrđuje nakon procjene; nisu dostavljene fiksne jedinične tarife.</napomena>
+    </usluga>
+    <usluga sifra="IND05" vrsta_cijene="po_individualnoj_procjeni">
+      <naziv_usluge>Generalno čišćenje</naziv_usluge>
+      <vrsta_cijene>po_individualnoj_procjeni</vrsta_cijene>
+      <jedinica_mjere>dogovoreni_opseg</jedinica_mjere>
+      <maloprodajna_cijena_eur />
+      <sidrena_cijena_2026_09_10_eur />
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>Prema individualnoj procjeni</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>Prema individualnoj procjeni</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Površina i volumen prostora; Stupanj zaprljanosti prostora (0–10); Stupanj upijenosti prljavštine (0–10); Stupanj zakrčenosti prostora (0–10); Odabrani paket čišćenja (0–10); Opseg čišćenja (0–10); Zahtjevnost čišćenja (0–10); Posebne želje i zahtjevi (0–10); Broj čišćenja mjesečno (0–10); Broj potrebnih članova ekipe (0–10); Vrsta površina (0–10). Cijena se individualno dogovara i potvrđuje nakon procjene; nisu dostavljene fiksne jedinične tarife.</napomena>
+    </usluga>
+    <usluga sifra="IND06" vrsta_cijene="po_individualnoj_procjeni">
+      <naziv_usluge>Čišćenje stubišta – EXPRESS</naziv_usluge>
+      <vrsta_cijene>po_individualnoj_procjeni</vrsta_cijene>
+      <jedinica_mjere>dogovoreni_opseg</jedinica_mjere>
+      <maloprodajna_cijena_eur />
+      <sidrena_cijena_2026_09_10_eur />
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>Prema individualnoj procjeni</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>Prema individualnoj procjeni</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Površina i volumen prostora; Stupanj zaprljanosti prostora (0–10); Stupanj upijenosti prljavštine (0–10); Stupanj zakrčenosti prostora (0–10); Odabrani paket čišćenja (0–10); Opseg čišćenja (0–10); Zahtjevnost čišćenja (0–10); Posebne želje i zahtjevi (0–10); Broj čišćenja mjesečno (0–10); Broj potrebnih članova ekipe (0–10); Vrsta površina (0–10). Cijena se individualno dogovara i potvrđuje nakon procjene; nisu dostavljene fiksne jedinične tarife.</napomena>
+    </usluga>
+    <usluga sifra="IND07" vrsta_cijene="po_individualnoj_procjeni">
+      <naziv_usluge>Čišćenje stubišta – ARGENTUM</naziv_usluge>
+      <vrsta_cijene>po_individualnoj_procjeni</vrsta_cijene>
+      <jedinica_mjere>dogovoreni_opseg</jedinica_mjere>
+      <maloprodajna_cijena_eur />
+      <sidrena_cijena_2026_09_10_eur />
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>Prema individualnoj procjeni</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>Prema individualnoj procjeni</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Površina i volumen prostora; Stupanj zaprljanosti prostora (0–10); Stupanj upijenosti prljavštine (0–10); Stupanj zakrčenosti prostora (0–10); Odabrani paket čišćenja (0–10); Opseg čišćenja (0–10); Zahtjevnost čišćenja (0–10); Posebne želje i zahtjevi (0–10); Broj čišćenja mjesečno (0–10); Broj potrebnih članova ekipe (0–10); Vrsta površina (0–10). Cijena se individualno dogovara i potvrđuje nakon procjene; nisu dostavljene fiksne jedinične tarife.</napomena>
+    </usluga>
+    <usluga sifra="IND08" vrsta_cijene="po_individualnoj_procjeni">
+      <naziv_usluge>Čišćenje poslovnih prostora</naziv_usluge>
+      <vrsta_cijene>po_individualnoj_procjeni</vrsta_cijene>
+      <jedinica_mjere>dogovoreni_opseg</jedinica_mjere>
+      <maloprodajna_cijena_eur />
+      <sidrena_cijena_2026_09_10_eur />
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>Prema individualnoj procjeni</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>Prema individualnoj procjeni</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Površina i volumen prostora; Stupanj zaprljanosti prostora (0–10); Stupanj upijenosti prljavštine (0–10); Stupanj zakrčenosti prostora (0–10); Odabrani paket čišćenja (0–10); Opseg čišćenja (0–10); Zahtjevnost čišćenja (0–10); Posebne želje i zahtjevi (0–10); Broj čišćenja mjesečno (0–10); Broj potrebnih članova ekipe (0–10); Vrsta površina (0–10). Cijena se individualno dogovara i potvrđuje nakon procjene; nisu dostavljene fiksne jedinične tarife.</napomena>
+    </usluga>
+    <usluga sifra="IND09" vrsta_cijene="po_individualnoj_procjeni">
+      <naziv_usluge>Ostale usluge po dogovoru</naziv_usluge>
+      <vrsta_cijene>po_individualnoj_procjeni</vrsta_cijene>
+      <jedinica_mjere>dogovoreni_opseg</jedinica_mjere>
+      <maloprodajna_cijena_eur />
+      <sidrena_cijena_2026_09_10_eur />
+      <raspon_do_eur />
+      <sidreni_raspon_do_eur />
+      <prikaz_maloprodajne_cijene>Prema individualnoj procjeni</prikaz_maloprodajne_cijene>
+      <prikaz_sidrene_cijene>Prema individualnoj procjeni</prikaz_sidrene_cijene>
+      <poseban_oblik_prodaje>ne</poseban_oblik_prodaje>
+      <naziv_posebnog_oblika_prodaje />
+      <napomena>Površina i volumen prostora; Stupanj zaprljanosti prostora (0–10); Stupanj upijenosti prljavštine (0–10); Stupanj zakrčenosti prostora (0–10); Odabrani paket čišćenja (0–10); Opseg čišćenja (0–10); Zahtjevnost čišćenja (0–10); Posebne želje i zahtjevi (0–10); Broj čišćenja mjesečno (0–10); Broj potrebnih članova ekipe (0–10); Vrsta površina (0–10). Cijena se individualno dogovara i potvrđuje nakon procjene; nisu dostavljene fiksne jedinične tarife.</napomena>
+    </usluga>
+  </usluge>
+</cjenik>
