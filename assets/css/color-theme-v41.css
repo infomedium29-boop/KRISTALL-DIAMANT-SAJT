@@ -1,0 +1,137 @@
+/*
+ * KRISTALL DIAMANT — V41 MAGENTA / OWNER COLOR PREVIEW
+ * The attached reference's principal color is #FD58FD.
+ * Kept separate from style.css so the palette can be reviewed and revised
+ * without touching V40 layout, typography, content or behavior.
+ */
+:root{
+  --kd-magenta:#fd58fd;
+  --kd-magenta-soft:#ffbcfa;
+  --kd-magenta-pale:#fff0fe;
+  --kd-plum:#352039;
+  --kd-plum-deep:#241329;
+  --kd-line:#ecc4eb;
+  --blue:#fd58fd;
+  --blue2:#d936d6;
+  --paper:#fff8ff;
+  --soft:#fd58fd;
+  --line:#ecc4eb;
+  --navy:#352039;
+  --navy2:#543058;
+  --ink:#352039;
+  --shadow:0 18px 55px rgba(88,24,85,.13);
+  --crystal:#fd58fd;
+  --ice:#ffe4fd;
+}
+body{background:#fff8ff;color:var(--ink)}
+::selection{background:#fd58fd;color:#241329}
+a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #92208e;outline-offset:3px}
+/* Small details and typography */
+.eyebrow,.card-link,.text-link,.pack-kicker,.price-card a,.owner-package-card a,.owner-inline-link,
+.prose a{color:#8d177f}
+.step-num,.icon-ring{color:#94248b;border-color:#dd80dc}
+.service-card:hover,.owner-package-card:hover,.price-card:hover,.blog-card:hover{border-color:#df62d9}
+.badge{background:#8d177f;color:#fff}
+/* Vivid pink where there is text on light sections; dark buttons hold contrast. */
+.btn-primary{background:#352039;color:#fff;border-color:#352039;box-shadow:0 8px 24px rgba(64,17,64,.14)}
+.btn-primary:hover{background:#582456;color:#fff;box-shadow:0 13px 30px rgba(88,36,86,.22)}
+.btn-outline{border-color:#92208e;color:#542052}
+.btn-outline:hover{border-color:#352039;background:#ffe4fd;color:#352039}
+/* Intro and the floating navigation */
+.brand-intro{background:radial-gradient(circle at 50% 44%,#fff9ff 0%,#ffe4fd 57%,#fdadf8 100%)}
+.intro-spark{color:#b622b4}
+.site-header .header-inner,.site-header .header-inner:hover{background:rgba(255,244,254,.97);border:1px solid rgba(225,80,223,.42);box-shadow:0 17px 48px rgba(94,21,87,.16),0 2px 9px rgba(94,21,87,.07)}
+.site-header .nav a:after{background:#bd1eb6}
+.site-header .nav-dropdown,.mobile-menu{background:rgba(255,243,254,.995)!important;border-color:#e7ace4}
+.site-header .nav-dropdown a:hover,.mobile-menu a:hover{color:#882081}
+.site-header .nav a.nav-cta,.mobile-menu a.mobile-menu-cta{background:#352039!important;border-color:#352039!important;color:#fff!important}
+.site-header .nav a.nav-cta:hover,.mobile-menu a.mobile-menu-cta:hover{background:#572557!important;color:#fff!important}
+.lang-switch a.active,.site-header .nav .lang-switch a.active,.mobile-language .lang-switch a.active{background:#352039!important;color:#fff!important}
+/* Home hero: brand-color wash across the photo, dark enough for readable white type. */
+.hero{background:#a0209a}
+.hero-media:after{background:
+ linear-gradient(180deg,rgba(85,14,84,.54) 0%,rgba(55,10,56,.62) 100%),
+ linear-gradient(100deg,rgba(238,64,232,.73) 0%,rgba(174,37,170,.35) 49%,rgba(249,71,245,.65) 100%)!important}
+.hero .hero-family-label strong,.hero h1{color:#fff}
+.hero .hero-family-label span,.hero .hero-tagline,.hero .lead{color:#ffeafe}
+.hero .btn-primary{background:#fd58fd!important;color:#2b1830!important;border-color:#fd58fd!important}
+.hero .btn-primary:hover{background:#ffc1fb!important;color:#2b1830!important}
+.hero .btn-glass,.hero .btn-outline{background:rgba(48,16,46,.6);color:#fff;border-color:rgba(255,235,253,.78)}
+.hero .btn-glass:hover,.hero .btn-outline:hover{background:#352039;color:#fff}
+/* Several substantial color blocks replace the old white-and-blush impression. */
+.trust{background:#fd58fd;border-bottom:1px solid #d43bd0}
+.trust-item{border-right-color:rgba(68,21,67,.22)}
+.trust-num{color:#351638;font-weight:700}
+.trust-label{color:#4e284f}
+.section-soft{background:linear-gradient(145deg,#fd58fd 0%,#f977f5 60%,#ed63ed 100%);color:#352039}
+.section-soft .section-head .lead,.section-soft .lead,.section-soft .muted{color:#4e2b4e}
+.section-soft .eyebrow{color:#682065}
+.section-soft .service-card,.section-soft .step,.section-soft .review,.section-soft .review-score,
+.section-soft .feature,.section-soft .price-card{background:rgba(255,252,255,.96);border-color:#efc0ed;box-shadow:0 8px 27px rgba(74,19,70,.085)}
+.section-soft .service-body p,.section-soft .review p{color:#654c64}
+.owner-home-packages{background:linear-gradient(125deg,#ffe3fd 0%,#fd58fd 100%)}
+.owner-home-packages .owner-section-head .eyebrow{color:#732470}
+.owner-home-packages .owner-package-card{background:#fffaff;border:1px solid #edb8e9;box-shadow:0 12px 28px rgba(93,20,89,.09)}
+.owner-home-packages .owner-package-card.is-accent{background:#fff0fd;border:2px solid #ac319f}
+.owner-package-index,.owner-num,.owner-list li:before{color:#902084}
+.owner-package-card.is-accent{border-color:#af399e;background:#fff0fd}
+.owner-stair-argentum{background:#fff0fd;border-color:#d777ce}
+.owner-note{background:#ffe0fb;border-left-color:#b327ac;color:#4a3048}
+.owner-accordion summary{color:#82217b}
+.owner-accordion summary span{background:#fbd4f9}
+.owner-link-cards a:hover{border-color:#d557c8}
+/* Inner pages: a clearly magenta leading visual on every HR/EN page. */
+.page-hero{background:radial-gradient(ellipse at 90% 0%,#ffbafa 0%,transparent 50%),linear-gradient(125deg,#fd58fd 0%,#f16bef 100%)!important;color:#352039}
+.page-hero .crumb,.page-hero .eyebrow{color:#60265f}
+.page-hero .lead,.page-hero .container > :first-child p{color:#4c2d4b}
+.page-hero-card{background:#352039;color:#fff;border:1px solid rgba(255,255,255,.2);box-shadow:0 20px 42px rgba(88,23,85,.17)}
+.page-hero-card p{color:#f4dff3}
+/* Clean white cards provide legibility against the more dominant saturated sections. */
+.service-card,.package,.step,.review,.review-score,.feature,.price-card,.package-deck article,.review-hero,
+.owner-package-card,.owner-copy-card,.owner-link-cards a,form,.blog-card{border-color:#ecc4eb}
+.package.featured{background:linear-gradient(180deg,#632c62 0 96px,#fff 96px)}
+.package-deck article.featured{background:linear-gradient(145deg,#352039,#622a62)}
+.table-wrap,.compare{border-color:#ecc4eb}
+.compare th{background:#ffe4fd;color:#542052}
+.compare th:nth-child(3),.compare td:nth-child(3){background:#ffddfc}
+.callout,.comparison-note,.charity,.contact-strip{background:linear-gradient(120deg,#ffdcfc,#fda0f8)}
+.charity,.contact-strip{color:#352039}
+.mini-benefits span,.review-tags span,.process-inline span{background:#ffe1fc;color:#50244d}
+/* On dark sections preserve the editorial contrast. */
+.section-dark{background:#352039;color:#fff}
+.section-dark .eyebrow{color:#ff97fa}
+.section-dark .result{background:#533057}
+.section-dark .result span{color:#ffe5fc}
+/* The lower full-width contact band becomes vivid branded pink. */
+.cta{background:#fd58fd;color:#352039}
+.cta:before{background:linear-gradient(90deg,#fd58fd 0%,#f36bed 49%,rgba(154,40,145,.77) 77%,rgba(66,17,64,.46) 100%)}
+.cta:after{opacity:.40}
+.cta .eyebrow,.cta .lead,.cta .cta-contact{color:#432342}
+.cta .btn-primary{background:#352039;color:#fff;border-color:#352039}
+.cta .btn-primary:hover{background:#562653;color:#fff}
+.cta .btn-outline,.cta .btn-glass{background:#fff8ff;color:#352039;border-color:#642a62}
+.cta .btn-outline:hover,.cta .btn-glass:hover{background:#ffe3fc;color:#352039}
+/* Forms, package extras, footer: pink accents, readable dark controls. */
+.contact-card{background:linear-gradient(145deg,#512451,#352039)}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:#ad32a7;box-shadow:0 0 0 3px rgba(253,88,253,.19)}
+.privacy-check input[type=checkbox]:checked{background:#8d217f!important;border-color:#8d217f!important}
+.owner-extra-list li,.owner-accordion{border-color:#ecc4eb}
+.footer{background:linear-gradient(180deg,#fcb2f9 0%,#fd58fd 100%);border-top:1px solid #dd5cd4;color:#352039}
+.footer .brand-title,.footer h4,.footer p,.footer a,.footer-links span{color:#442143}
+.footer-links a:hover{color:#741574}
+.footer-bottom{background:#352039;color:#f2d9ef}
+.footer-bottom a,.footer-cookie-settings{color:#f2d9ef}
+.cookie{border-color:#eab4e6;background:#fff8ff}
+/* Sticky contact retains its established white/WhatsApp-green/pink scheme. */
+@media(max-width:720px){
+ .hero{background:#a0219e!important}
+ .hero-media:after{background:linear-gradient(180deg,rgba(157,29,156,.44),rgba(56,10,56,.9) 88%)!important}
+ .hero .hero-tagline,.hero .lead{color:#fff0fe}
+ .mobile-menu{background:rgba(255,241,253,.99)!important}
+ .mobile-sticky a:last-child{background:#fd58fd!important;color:#2d1830!important;border-color:#bf35b4!important}
+ .mobile-sticky a:last-child:hover,.mobile-sticky a:last-child:active{background:#f7a0f7!important;color:#2d1830!important}
+ .section-soft{background:linear-gradient(160deg,#fd58fd 0%,#ef6bed 100%)}
+ .cta:before{background:linear-gradient(180deg,rgba(253,88,253,.96),rgba(253,88,253,.90))!important}
+ .cta:after{opacity:.18}
+}
+@media(prefers-reduced-motion:reduce){.hero-media{animation:none}}
