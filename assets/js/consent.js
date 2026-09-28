@@ -72,6 +72,13 @@
       localStorage.setItem(KEY, JSON.stringify({ version: VERSION, timestamp: Date.now(), categories: normalized }));
     } catch (e) {}
     storedValid = true;
+    // When analytics permission is withdrawn, reload into the no-Google-tag state.
+    // Removing a script node would not unload an already executed Google tag.
+    if (current.analytics && !normalized.analytics) {
+      current = normalized; // Block application event calls immediately.
+      window.location.reload();
+      return;
+    }
     apply(normalized);
   };
 
