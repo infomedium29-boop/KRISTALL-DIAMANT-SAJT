@@ -47,11 +47,13 @@ a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,s
 .site-header .nav a.nav-cta,.mobile-menu a.mobile-menu-cta{background:#352039!important;border-color:#352039!important;color:#fff!important}
 .site-header .nav a.nav-cta:hover,.mobile-menu a.mobile-menu-cta:hover{background:#572557!important;color:#fff!important}
 .lang-switch a.active,.site-header .nav .lang-switch a.active,.mobile-language .lang-switch a.active{background:#352039!important;color:#fff!important}
-/* Home hero: brand-color wash across the photo, dark enough for readable white type. */
-.hero{background:#a0209a}
-.hero-media:after{background:
- linear-gradient(180deg,rgba(85,14,84,.54) 0%,rgba(55,10,56,.62) 100%),
- linear-gradient(100deg,rgba(238,64,232,.73) 0%,rgba(174,37,170,.35) 49%,rgba(249,71,245,.65) 100%)!important}
+/* V42 — remove the pink tint over the homepage photograph entirely.
+   Only a light neutral charcoal gradient remains to keep white headline text readable. */
+.hero{background:#241329}
+.hero-media{opacity:1!important}
+.hero-media:after{background:linear-gradient(180deg,
+ rgba(18,16,18,.27) 0%,rgba(18,16,18,.33) 53%,rgba(18,16,18,.39) 100%)!important}
+.hero .hero-family-label,.hero h1,.hero .hero-tagline,.hero .lead{text-shadow:0 2px 16px rgba(18,13,18,.53)}
 .hero .hero-family-label strong,.hero h1{color:#fff}
 .hero .hero-family-label span,.hero .hero-tagline,.hero .lead{color:#ffeafe}
 .hero .btn-primary{background:#fd58fd!important;color:#2b1830!important;border-color:#fd58fd!important}
@@ -124,8 +126,10 @@ a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,s
 .cookie{border-color:#eab4e6;background:#fff8ff}
 /* Sticky contact retains its established white/WhatsApp-green/pink scheme. */
 @media(max-width:720px){
- .hero{background:#a0219e!important}
- .hero-media:after{background:linear-gradient(180deg,rgba(157,29,156,.44),rgba(56,10,56,.9) 88%)!important}
+ .hero{background:#241329!important}
+ .hero-media{opacity:1!important}
+ .hero-media:after{background:linear-gradient(180deg,
+   rgba(18,16,18,.24) 0%,rgba(18,16,18,.36) 42%,rgba(18,16,18,.58) 100%)!important}
  .hero .hero-tagline,.hero .lead{color:#fff0fe}
  .mobile-menu{background:rgba(255,241,253,.99)!important}
  .mobile-sticky a:last-child{background:#fd58fd!important;color:#2d1830!important;border-color:#bf35b4!important}
