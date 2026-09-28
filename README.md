@@ -1,43 +1,9 @@
-# Kristall Diamant — premium redizajn V12
+# Kristall Diamant V43 — web za pregled vlasnika
 
-Deploy-ready statički višestranični site za GitHub + Cloudflare Pages.
+Statički dvojezični (HR/EN) projekt za GitHub i Cloudflare Pages. Uploadajte sadržaj ove mape tako da `index.html` bude u korijenu repozitorija.
 
-## Deploy na Cloudflare Pages
-- Framework preset: **None**
-- Build command: **ostavite prazno**
-- Build output directory: **/** (root repozitorija)
-- Ako Cloudflare traži direktorij, koristite `.`
+Ova verzija zadržava V42 logo i originalno vidljivu hero fotografiju te V41 magenta paletu. Novi cjenik na `/cijene/` i `/en/prices/`, ažurirana usluga Bio Light, uklonjeni Blog/Nakon adaptacije i pauzirana humanitarna poruka, nove društvene poveznice i Google profil. Opis svih promjena u `PROMJENE-V43.md`.
 
-## Prije spajanja glavne domene OBAVEZNO
-1. Ne dirati postojeći WordPress dok Google Ads rade. Novi site prvo testirati na Cloudflare preview URL-u.
-2. U `kontakt/index.html` zamijeniti `YOUR_WEB3FORMS_ACCESS_KEY` stvarnim Web3Forms ključem. Dok ključ nije postavljen, forma otvara e-mail kao fallback.
-3. Potvrditi završni cjenik vlasnika i unijeti iznose u `/cijene/`. Namjerno nismo prenijeli stare iznose kao konačne.
-4. Facebook i TikTok sada vode na poveznice koje je vlasnik dostavio; Instagram ostaje povezan. YouTube poveznica još čeka potvrdu i nije aktivna.
-5. Trenutne dekorativne fotografije su optimizirani AVIF vizuali i ne predstavljaju se kao stvarne reference klijenta. Kada vlasnik dostavi originalne fotografije rada i before/after materijal, mogu se zamijeniti bez promjene layouta.
-6. Provjeriti URL-ove koje koriste postojeće Google Ads kampanje i dopuniti `_redirects` ako postoji landing URL koji nije na popisu.
-7. Tek nakon testiranja formi, 301 redirekcija, mobilne verzije i kampanja spojiti `ciscenjekristalldiamant.hr` na novi Cloudflare projekt.
+**Nije za konačnu produkcijsku aktivaciju dok se ne provjeri:** kontakt forma ima zamjenski Web3Forms ključ i otvara mailto; nisu dostavljene stvarne fotografije niti GTM/GA4/Ads identifikatori. Google tracking spreman samo kao lokalni dataLayer/consent mehanizam, nije live.
 
-## Službeni podaci korišteni u ovoj verziji
-- Kristall Diamant, obrt za usluge
-- vl. Tamara Karakhanova
-- Tršćanska 1, Zagreb
-- OIB 01142261377
-- MBS 98615220
-- Telefon 097 752 4712
-- E-mail info@ciscenjekristalldiamant.hr
-
-## Struktura
-Naslovna, O nama, Usluge, Cijene, Paketi, Recenzije, Blog, Kontakt, Posao, pravne stranice i pojedinačni SEO landing pageovi usluga.
-
-
-## V22 final polish
-- HR/EN language parity restored on all mapped pages.
-- Full GDPR consent restored on Croatian pages and retained on English pages.
-- All quick-contact rows use real icons.
-- Responsive spacing, typography, cards, forms, hover/focus states and mobile sticky actions were polished.
-- Development-facing preview copy was removed from visible pages.
-- Before production, still confirm the Web3Forms key and the YouTube URL. Facebook and TikTok are connected to owner-provided URLs.
-
-
-## V38 – vlasnikovi novi tekstovi
-Statički HTML je aktualni sadržaj. Cijeli popis od 33 dodatna posla i sve nove opise vidjeti na `/paketi/` i `/usluge/ciscenje-po-dogovoru/`, uz engleske inačice. Stari `build_site.py` ne pokretati jer je naslijeđeni generator iz stare verzije. Pregled izmjena: `PROMJENE-V38-NA-PREGLED.md`.
+Za Google konverzije pogledajte `TRACKING-SETUP.md`.

@@ -1635,3 +1635,39 @@ form .field.full > .btn[type=submit]:hover{
   .hero .hero-tagline{font-size:clamp(1.14rem,5vw,1.32rem);max-width:340px;margin:0 auto 13px;line-height:1.33}
 }
 @media(max-width:390px){.hero .hero-tagline{font-size:1.13rem}}
+
+
+/* V43 — owner revision, consistent with V41 magenta palette and unchanged V42 hero photo. */
+.hero .hero-family-label strong.v43-large-family{font-size:clamp(1.89rem,3.6vw,2.58rem);font-weight:850;line-height:1.06;letter-spacing:-.035em}
+.hero .hero-tagline.v43-large-slogan{font-size:clamp(1.77rem,3.6vw,2.475rem);line-height:1.19;max-width:860px;margin:4px auto 20px;color:#fff;text-shadow:0 3px 18px rgba(31,14,28,.7)}
+.hero .hero-family-label{margin-bottom:17px}
+.v43-google-cta{text-align:center;margin:22px auto 0}
+.v43-google-footer{display:inline-flex;align-items:center;margin:13px 0 0;font-weight:750;text-decoration:underline;text-underline-offset:4px;line-height:1.5}
+.v43-pricing-criteria .section-head{max-width:850px;margin-bottom:30px}
+.v43-criteria-grid{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.v43-criteria-grid li{display:flex;align-items:center;gap:17px;min-width:0;background:#fff;border:1px solid #eec7e9;border-radius:14px;padding:17px 19px;color:#493348;font-weight:650;line-height:1.4;box-shadow:0 9px 25px rgba(76,35,67,.035)}
+.v43-criterion-num{font-variant-numeric:tabular-nums;font-size:.76rem;font-weight:850;color:#9a308b;letter-spacing:.07em}
+.v43-pricing-criteria .owner-note{margin-top:28px}
+.v43-bio-prices{background:linear-gradient(150deg,#fff5ff 0%,#ffe8ff 60%,#fff7ff 100%)}
+.v43-bio-head{display:flex;align-items:end;justify-content:space-between;gap:28px;margin-bottom:24px}
+.v43-bio-head h2{font-family:var(--serif);font-size:clamp(2rem,4vw,3.15rem);margin:10px 0 12px;color:#382239;line-height:1.12;max-width:750px}
+.v43-bio-head .lead{max-width:740px}
+.v43-bio-head .btn{flex-shrink:0}
+.v43-price-table{border:1px solid #edcae8;background:#fff;border-radius:19px;box-shadow:0 16px 38px rgba(65,30,58,.055);overflow:hidden;display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+.v43-price-row{display:flex;align-items:center;justify-content:space-between;gap:17px;min-width:0;padding:17px 23px;border-bottom:1px solid #f0e3ef;font-size:.88rem;line-height:1.4}
+.v43-price-row:nth-child(odd){border-right:1px solid #f0e3ef}
+.v43-price-row span{color:#564354}.v43-price-row strong{font-weight:850;color:#823176;text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.v43-carpet-price{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:14px;padding:25px 29px;border-radius:15px;background:#45223f;color:#fff}
+.v43-carpet-price div{display:flex;flex-direction:column;gap:4px}.v43-carpet-price div strong{font-size:1.12rem}.v43-carpet-price div span{font-size:.81rem;color:#ffe1f7}.v43-carpet-price>strong{font-size:clamp(1.3rem,3vw,1.8rem);white-space:nowrap}
+.v43-pricing-bottom{display:flex;align-items:center;justify-content:space-between;gap:28px}.v43-pricing-bottom>div:first-child{max-width:730px}.v43-pricing-bottom h2{font-family:var(--serif);font-size:clamp(1.9rem,3vw,2.8rem);margin:10px 0 12px}.v43-pricing-bottom p{line-height:1.65}.v43-pricing-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:flex-end}
+@media(max-width:720px){
+ .hero .hero-family-label strong.v43-large-family{font-size:clamp(1.85rem,7.8vw,2.2rem)}
+ .hero .hero-tagline.v43-large-slogan{font-size:clamp(1.58rem,6.7vw,1.98rem);max-width:350px;line-height:1.23;margin:5px auto 15px}
+ .hero .hero-content{padding-top:100px;padding-bottom:72px}
+ .v43-criteria-grid,.v43-price-table{grid-template-columns:1fr}
+ .v43-criteria-grid li{padding:14px 16px}.v43-bio-head,.v43-pricing-bottom{display:flex;flex-direction:column;align-items:stretch;gap:19px}
+ .v43-price-row:nth-child(odd){border-right:0}.v43-price-row{padding:13px 16px;font-size:.83rem}
+ .v43-bio-head .btn{align-self:flex-start}.v43-pricing-actions{justify-content:flex-start}
+ .v43-carpet-price{padding:20px;gap:12px}.v43-carpet-price>strong{font-size:1.25rem}
+}
+@media(max-width:365px){.hero .hero-family-label strong.v43-large-family{font-size:1.7rem}.hero .hero-tagline.v43-large-slogan{font-size:1.45rem}.v43-price-row{font-size:.79rem;gap:10px}.v43-price-row strong{font-size:.79rem}}

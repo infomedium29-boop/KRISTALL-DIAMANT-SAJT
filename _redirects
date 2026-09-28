@@ -12,3 +12,13 @@
 /poslovni-prostori/ /posao/ 301
 /privacy-policy/ /politika-privatnosti/ 301
 /854-2/ /opci-uvjeti-poslovanja/ 301
+
+# V43: retired services/blog -> nearest active content
+/blog/* /usluge/ 301
+/blog /usluge/ 301
+/en/blog/* /en/services/ 301
+/en/blog /en/services/ 301
+/usluge/ciscenje-nakon-adaptacije/* /usluge/generalno-ciscenje/ 301
+/usluge/ciscenje-nakon-adaptacije /usluge/generalno-ciscenje/ 301
+/en/services/post-renovation-cleaning/* /en/services/deep-cleaning/ 301
+/en/services/post-renovation-cleaning /en/services/deep-cleaning/ 301

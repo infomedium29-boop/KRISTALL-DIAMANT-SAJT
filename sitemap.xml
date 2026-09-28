@@ -1,19 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://ciscenjekristalldiamant.hr/blog/</loc>
-    <lastmod>2026-09-07</lastmod>
-    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/blog/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/blog/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/blog/" />
-  </url>
-  <url>
-    <loc>https://ciscenjekristalldiamant.hr/blog/kako-odabrati-servis-za-ciscenje-ureda/</loc>
-    <lastmod>2026-09-07</lastmod>
-    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/blog/kako-odabrati-servis-za-ciscenje-ureda/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/blog/how-to-choose-an-office-cleaning-service/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/blog/kako-odabrati-servis-za-ciscenje-ureda/" />
-  </url>
   <url>
     <loc>https://ciscenjekristalldiamant.hr/cijene/</loc>
     <lastmod>2026-09-07</lastmod>
@@ -27,20 +13,6 @@
     <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/o-nama/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/about/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/o-nama/" />
-  </url>
-  <url>
-    <loc>https://ciscenjekristalldiamant.hr/en/blog/how-to-choose-an-office-cleaning-service/</loc>
-    <lastmod>2026-09-07</lastmod>
-    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/blog/kako-odabrati-servis-za-ciscenje-ureda/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/blog/how-to-choose-an-office-cleaning-service/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/blog/kako-odabrati-servis-za-ciscenje-ureda/" />
-  </url>
-  <url>
-    <loc>https://ciscenjekristalldiamant.hr/en/blog/</loc>
-    <lastmod>2026-09-07</lastmod>
-    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/blog/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/blog/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/blog/" />
   </url>
   <url>
     <loc>https://ciscenjekristalldiamant.hr/en/careers/</loc>
@@ -141,13 +113,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/" />
   </url>
   <url>
-    <loc>https://ciscenjekristalldiamant.hr/en/services/post-renovation-cleaning/</loc>
-    <lastmod>2026-09-07</lastmod>
-    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-nakon-adaptacije/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/post-renovation-cleaning/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-nakon-adaptacije/" />
-  </url>
-  <url>
     <loc>https://ciscenjekristalldiamant.hr/en/services/regular-cleaning/</loc>
     <lastmod>2026-09-07</lastmod>
     <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/redovno-ciscenje/" />
@@ -230,13 +195,6 @@
     <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/recenzije/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/reviews/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/recenzije/" />
-  </url>
-  <url>
-    <loc>https://ciscenjekristalldiamant.hr/usluge/ciscenje-nakon-adaptacije/</loc>
-    <lastmod>2026-09-07</lastmod>
-    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-nakon-adaptacije/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/post-renovation-cleaning/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-nakon-adaptacije/" />
   </url>
   <url>
     <loc>https://ciscenjekristalldiamant.hr/usluge/ciscenje-po-dogovoru/</loc>
