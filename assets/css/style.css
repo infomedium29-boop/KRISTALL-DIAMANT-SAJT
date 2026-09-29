@@ -1699,3 +1699,26 @@ form .field.full > .btn[type=submit]:hover{
 .v45-archive-row>span{font-weight:750;color:#56364d}.v45-archive-row>div{display:flex;gap:15px;flex-wrap:wrap}.v45-archive-row a{font-weight:800;color:#84277a;text-decoration:underline;text-underline-offset:3px}
 @media(max-width:720px){.v45-price-pair{min-width:112px}.v43-price-row .v45-price-anchor{font-size:.66rem}.v45-download-card{grid-template-columns:1fr;padding:25px 20px;gap:17px}.v45-download-section{padding-block:45px}.v45-one-price{padding:17px;gap:10px}.v45-archive-list{padding:20px}.v45-archive-row{align-items:flex-start;flex-direction:column}}
 @media(max-width:380px){.v43-price-row{gap:8px}.v45-price-pair{min-width:105px}.v43-price-row .v45-price-anchor{font-size:.62rem}.v43-carpet-price .v45-carpet-pair strong{font-size:1.13rem}}
+
+/* V47 — accessible Web3Forms hCaptcha integration */
+[data-contact-form] .kd-captcha-field { min-width: 0; }
+[data-contact-form] .kd-captcha-label { display: block; margin-bottom: 10px; }
+[data-contact-form] .kd-captcha-panel {
+  min-width: 0; padding: 16px 18px 12px; border: 1px solid #efd5e9;
+  border-radius: 17px; background: #fffafd;
+}
+[data-contact-form] .kd-captcha-panel .h-captcha { display:block; min-height:78px; }
+[data-contact-form] .kd-captcha-instructions,
+[data-contact-form] .kd-captcha-privacy {
+  font-size: .77rem; font-weight: 450; line-height: 1.55; color: #6b5269;
+}
+[data-contact-form] .kd-captcha-instructions { margin: 8px 0 0; }
+[data-contact-form] .kd-captcha-privacy { margin: 7px 0 0; }
+[data-contact-form] .kd-captcha-privacy a { color: #6d235f; text-underline-offset: 2px; }
+@media (max-width: 390px) {
+  [data-contact-form] .kd-captcha-panel { padding: 12px 10px 10px; overflow: hidden; }
+  [data-contact-form] .kd-captcha-panel .h-captcha {
+    width: 303px; transform: scale(.82); transform-origin: top left;
+    margin-bottom: -14px;
+  }
+}
