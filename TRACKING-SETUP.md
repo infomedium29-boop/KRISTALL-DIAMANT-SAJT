@@ -8,6 +8,6 @@ GA4 događaji: `generate_lead` (isključivo nakon uspješnog Web3Forms API odgov
 
 Ne šaljemo vlasnikove niti korisnikove osobne podatke, sadržaj obrasca, telefonske brojeve ili e-mail adrese kao parametre. Oznaka se učitava samo jednom po stranici. Postojeći GTM container `GTM-NCDJRNZW`, GT tagovi i Ads AW tag ovdje NISU uključeni, kako se ne bi napravila dvostruka GA4 mjerenja ili nekontrolirani marketinški zahtjevi.
 
-Kontaktni obrazac u izvornom V43 i dalje koristi `YOUR_WEB3FORMS_ACCESS_KEY` i mailto fallback; stoga se `generate_lead` neće zabilježiti dok se ne konfigurira važeći ključ i dok Web3Forms ne potvrdi uspješno slanje. Ovo nije implementacija stvarnog praćenja ostvarenih telefonskih razgovora, već klikova na `tel:`.
+U V46 kontaktni obrazac koristi javni Access Key iz `assets/js/form-config.js` i šalje izravno iz preglednika na Web3Forms Free API. `generate_lead` se poziva samo nakon uspješnog HTTP i API odgovora. Primitak poruke mora se dodatno provjeriti stvarnim testom na aktivnoj domeni. Ovo nije implementacija stvarnog praćenja ostvarenih telefonskih razgovora, već klikova na `tel:`.
 
 Nakon objave na stvarnoj domeni provjeriti GA4 Realtime / DebugView i preglednikom network requests nakon prihvaćanja/odbijanja; potom u GA4 označiti `generate_lead` kao ključni događaj. Za Google Ads import treba povezati odgovarajuće GA4 i Ads račune i podesiti konverzije u računu. **Ne uključivati dodatni GA4/GTM tag na istu stranicu bez revizije** jer bi mogao duplicirati page_view ili događaje.
