@@ -56,18 +56,24 @@ if(form){
   form.addEventListener('submit',async(e)=>{
     e.preventDefault();
     const status=form.querySelector('.form-status');
+    const setStatus=(message,type='')=>{
+      if(!status)return;
+      status.textContent=message||'';
+      status.classList.remove('is-success','is-error','is-pending','is-warning');
+      if(type)status.classList.add(`is-${type}`);
+    };
     if(!form.checkValidity()){form.reportValidity();return;}
     if(submitting)return;
     const key=window.KDWeb3Forms?.accessKey;
-    if(!key){status.textContent=L.error;return;}
+    if(!key){setStatus(L.error,'error');return;}
     // The Web3Forms helper creates the h-captcha-response field when hCaptcha is ready.
     // Never submit an enquiry before the visitor completes the challenge.
     const captchaWidget=form.querySelector('.h-captcha');
     const captchaResponse=form.querySelector('[name="h-captcha-response"]');
-    if(!captchaWidget || !captchaResponse){status.textContent=L.captchaLoading;return;}
+    if(!captchaWidget || !captchaResponse){setStatus(L.captchaLoading,'warning');return;}
     const captchaToken=(captchaResponse.value||'').trim();
     if(!captchaToken){
-      status.textContent=L.captchaRequired;
+      setStatus(L.captchaRequired,'warning');
       captchaWidget.scrollIntoView({behavior:'smooth',block:'center'});
       return;
     }
@@ -77,7 +83,7 @@ if(form){
     const button=form.querySelector('button[type="submit"]');
     submitting=true;
     if(button)button.disabled=true;
-    status.textContent=L.sending;
+    setStatus(L.sending,'pending');
     try{
       const response=await fetch('https://api.web3forms.com/submit',{
         method:'POST',body:fd,headers:{Accept:'application/json'}
@@ -87,14 +93,14 @@ if(form){
         window.KDTrack?.event('kd_contact_form_success');
         form.reset();
         try{window.hcaptcha?.reset();}catch(_){}
-        status.textContent=L.success;
+        setStatus(L.success,'success');
       }else{
         throw new Error('Web3Forms submission rejected');
       }
     }catch(err){
       // A token must not be reused after a failed request or an expired challenge.
       try{window.hcaptcha?.reset();}catch(_){}
-      status.textContent=`${L.error} ${L.captchaRetry}`;
+      setStatus(`${L.error} ${L.captchaRetry}`,'error');
     }finally{
       submitting=false;
       if(button)button.disabled=false;
