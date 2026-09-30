@@ -1722,3 +1722,13 @@ form .field.full > .btn[type=submit]:hover{
     margin-bottom: -14px;
   }
 }
+
+
+/* V48 — owner review: keep the circular brand mark clearly visible in the mobile header */
+@media(max-width:720px){
+  .site-header .brand{display:flex!important;align-items:center!important;gap:9px!important;min-width:0!important;overflow:visible!important}
+  .site-header .brand img.brand-logo{display:block!important;visibility:visible!important;opacity:1!important;width:44px!important;height:44px!important;min-width:44px!important;max-width:44px!important;flex:0 0 44px!important;position:relative!important;z-index:3!important}
+}
+@media(max-width:390px){
+  .site-header .brand img.brand-logo{width:40px!important;height:40px!important;min-width:40px!important;max-width:40px!important;flex-basis:40px!important}
+}
