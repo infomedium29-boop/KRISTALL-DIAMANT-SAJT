@@ -64,7 +64,7 @@ if(form){
     };
     if(!form.checkValidity()){form.reportValidity();return;}
     if(submitting)return;
-    const key=window.KDWeb3Forms?.accessKey;
+    const key=(form.querySelector('input[name="access_key"]')?.value||window.KDWeb3Forms?.accessKey||'').trim();
     if(!key){setStatus(L.error,'error');return;}
     // The Web3Forms helper creates the h-captcha-response field when hCaptcha is ready.
     // Never submit an enquiry before the visitor completes the challenge.

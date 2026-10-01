@@ -4,3 +4,10 @@
   Cache-Control: public, max-age=300, must-revalidate
 /cjenici/arhiva/*
   Cache-Control: public, max-age=31536000, immutable
+
+/assets/js/form-config.js
+  Cache-Control: no-store
+/assets/js/main.js
+  Cache-Control: public, max-age=300, must-revalidate
+/assets/css/style.css
+  Cache-Control: public, max-age=300, must-revalidate
