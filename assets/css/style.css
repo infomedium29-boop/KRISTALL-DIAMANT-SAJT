@@ -1778,3 +1778,12 @@ html[lang="en"] .v43-carpet-price .v45-carpet-pair>strong::before{content:"Curre
 
 @media(max-width:1020px){.v51-price-guide{grid-template-columns:1fr}.v51-price-legend{grid-template-columns:1fr 1fr}.v51-service-price-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:720px){.v51-price-explainer,.v51-cleaning-prices{padding-block:40px}.v51-price-guide{padding:22px 18px;gap:20px;border-radius:18px}.v51-price-legend{grid-template-columns:1fr}.v51-service-price-grid{grid-template-columns:1fr;gap:11px}.v51-service-price-card{min-height:0;padding:19px}.v51-service-price-lines>div{align-items:flex-start;flex-direction:column;gap:3px}.v51-service-price-lines strong{text-align:left;white-space:normal}.v51-assessment-note{padding:18px}.v43-price-row{align-items:flex-start}.v45-price-pair{min-width:128px}}
+
+
+/* V53 hourly pricing */
+.v53-rate-strip{padding:24px 0;background:#fff7ff;border-top:1px solid #f2deee;border-bottom:1px solid #f2deee}
+.v53-rate-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(360px,.8fr);gap:30px;align-items:center;background:#fff;border:1px solid #e9cbe5;border-radius:20px;padding:24px 28px;box-shadow:0 10px 30px rgba(75,31,67,.05)}
+.v53-rate-card h2{font-size:clamp(1.45rem,2.4vw,2.1rem);margin:3px 0 8px}.v53-rate-card p{margin:0;color:#776575;max-width:700px}
+.v53-rate-values{display:grid;grid-template-columns:1fr 1fr;gap:10px}.v53-rate-values>div{padding:15px;border:1px solid #edd8e9;border-radius:14px;background:#fff7ff}.v53-rate-values>div.anchor{background:#4a2144;border-color:#4a2144}.v53-rate-values span{display:block;font-size:.68rem;font-weight:850;letter-spacing:.045em;text-transform:uppercase;color:#85567d;margin-bottom:6px}.v53-rate-values strong{font-size:1.15rem;color:#6b2462;white-space:nowrap}.v53-rate-values .anchor span{color:#ead9e7}.v53-rate-values .anchor strong{color:#fff}.v53-hourly-card .v51-service-price-lines strong{font-size:.98rem}.v53-hourly-card{min-height:280px}
+@media(max-width:860px){.v53-rate-card{grid-template-columns:1fr}.v53-rate-values{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.v53-rate-strip{padding:18px 0}.v53-rate-card{padding:19px 17px;border-radius:16px;gap:18px}.v53-rate-values{grid-template-columns:1fr}.v53-rate-values strong{font-size:1.05rem}.v53-hourly-card{min-height:0}}

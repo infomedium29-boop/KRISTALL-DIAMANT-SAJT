@@ -266,4 +266,18 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/pricelists/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/cjenici/" />
   </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/usluge/ciscenje-nakon-adaptacije/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-nakon-adaptacije/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/post-renovation-cleaning/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-nakon-adaptacije/" />
+  </url>
+  <url>
+    <loc>https://ciscenjekristalldiamant.hr/en/services/post-renovation-cleaning/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-nakon-adaptacije/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciscenjekristalldiamant.hr/en/services/post-renovation-cleaning/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ciscenjekristalldiamant.hr/usluge/ciscenje-nakon-adaptacije/" />
+  </url>
 </urlset>
