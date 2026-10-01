@@ -1733,3 +1733,48 @@ form .field.full > .btn[type=submit]:hover{
   .site-header .brand img.brand-logo{width:40px!important;height:40px!important;min-width:40px!important;max-width:40px!important;flex-basis:40px!important}
 }
 \n\n/* V50 — clearer, accessible form feedback after Web3Forms submission */\n[data-contact-form] .form-status{\n  display:none; margin-top:14px; min-height:0; font-size:.84rem; line-height:1.5;\n  font-weight:650; border-radius:14px; color:#604d5c;\n}\n[data-contact-form] .form-status:not(:empty){\n  display:flex; align-items:flex-start; gap:11px; padding:13px 15px; border:1px solid #eadde7; background:#fffafd;\n}\n[data-contact-form] .form-status::before{\n  flex:0 0 25px; width:25px; height:25px; border-radius:999px; display:grid; place-items:center;\n  font-size:.82rem; font-weight:900; line-height:1; margin-top:-1px;\n}\n[data-contact-form] .form-status.is-success{\n  color:#155b35; background:#edf9f2; border-color:#b9e6ca; box-shadow:0 10px 26px rgba(25,105,62,.08);\n}\n[data-contact-form] .form-status.is-success::before{content:'✓';color:#fff;background:#218a52;}\n[data-contact-form] .form-status.is-pending{color:#62335d;background:#fff5fe;border-color:#edcfea;}\n[data-contact-form] .form-status.is-pending::before{content:'…';color:#fff;background:#8a347d;}\n[data-contact-form] .form-status.is-warning{color:#75530f;background:#fff9e8;border-color:#f0dfa1;}\n[data-contact-form] .form-status.is-warning::before{content:'!';color:#fff;background:#b98618;}\n[data-contact-form] .form-status.is-error{color:#8b2d35;background:#fff1f2;border-color:#efc1c5;}\n[data-contact-form] .form-status.is-error::before{content:'!';color:#fff;background:#bb4650;}\n@media(max-width:520px){\n  [data-contact-form] .form-status:not(:empty){padding:12px 13px;gap:9px;font-size:.81rem;border-radius:12px}\n  [data-contact-form] .form-status::before{flex-basis:23px;width:23px;height:23px}\n}\n
+
+/* V51 — human-readable current + reference prices */
+.v51-price-explainer{padding-block:48px;background:#fff}
+.v51-price-guide{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(300px,.75fr);gap:34px;align-items:center;padding:34px;border:1px solid #efc7eb;border-radius:22px;background:linear-gradient(135deg,#fff 0%,#fff7ff 100%);box-shadow:0 16px 44px rgba(73,28,62,.07)}
+.v51-price-guide-copy h2{font-family:var(--serif);font-size:clamp(2rem,3.8vw,3.2rem);margin:8px 0 16px;color:#40263d}
+.v51-price-guide-copy p{margin:0 0 10px;line-height:1.75;color:#5f4b5c}
+.v51-price-guide-copy p strong{color:#632153}
+.v51-price-legend{display:grid;gap:12px}
+.v51-price-legend>div{padding:18px 20px;border-radius:16px;background:#fff;border:1px solid #ead7e6;display:grid;gap:4px}
+.v51-price-legend>div.is-anchor{background:#4a2144;color:#fff;border-color:#4a2144}
+.v51-price-legend span{font-size:.66rem;font-weight:900;letter-spacing:.09em;text-transform:uppercase;color:#a52b98}
+.v51-price-legend .is-anchor span{color:#ffb6fa}
+.v51-price-legend strong{font-size:1.05rem;color:#40263d}
+.v51-price-legend .is-anchor strong{color:#fff}
+.v51-price-legend small{font-size:.76rem;color:#7a6876}
+.v51-price-legend .is-anchor small{color:#ead9e7}
+
+/* Stronger labels for fixed current / reference prices */
+.v43-price-row .v45-price-current{display:block}
+.v43-price-row .v45-price-current::before{content:"Važeća cijena";display:block;margin-bottom:2px;font-family:var(--sans);font-size:.62rem;line-height:1.2;letter-spacing:.07em;text-transform:uppercase;color:#9a4a90;font-weight:850}
+html[lang="en"] .v43-price-row .v45-price-current::before{content:"Current price"}
+.v43-price-row .v45-price-anchor{margin-top:4px;padding-top:5px;border-top:1px solid #f0dbea}
+.v43-carpet-price .v45-carpet-pair>strong::before{content:"Važeća cijena";display:block;margin-bottom:3px;font-family:var(--sans);font-size:.62rem;letter-spacing:.07em;text-transform:uppercase;color:#ffd4fb;font-weight:850}
+html[lang="en"] .v43-carpet-price .v45-carpet-pair>strong::before{content:"Current price"}
+
+.v51-cleaning-prices{padding-block:68px}
+.v51-cleaning-head{max-width:900px;margin-bottom:28px}
+.v51-service-price-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.v51-service-price-card{background:#fff;border:1px solid #eccfe8;border-radius:18px;padding:23px;box-shadow:0 10px 30px rgba(75,31,67,.045);display:flex;flex-direction:column;min-height:255px}
+.v51-service-kicker{font-size:.66rem;line-height:1.4;font-weight:900;letter-spacing:.07em;text-transform:uppercase;color:#a52b98;margin-bottom:6px}
+.v51-service-price-card h3{font-family:var(--serif);font-size:1.55rem;line-height:1.05;margin:0 0 17px;color:#40263d}
+.v51-service-price-lines{display:grid;gap:8px;margin-bottom:14px}
+.v51-service-price-lines>div{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 12px;border-radius:11px;background:#fff7ff;border:1px solid #f0ddeb}
+.v51-service-price-lines>div.is-anchor{background:#4a2144;border-color:#4a2144}
+.v51-service-price-lines span{font-size:.69rem;font-weight:800;color:#765c70}
+.v51-service-price-lines strong{font-size:.82rem;text-align:right;color:#74276a;white-space:nowrap}
+.v51-service-price-lines .is-anchor span{color:#ead9e7}
+.v51-service-price-lines .is-anchor strong{color:#fff}
+.v51-service-price-card p{font-size:.78rem;line-height:1.6;color:#786675;margin:auto 0 0}
+.v51-assessment-note{margin-top:18px;padding:22px 24px;border-left:4px solid #fd58fd;border-radius:14px;background:#fff;box-shadow:0 9px 28px rgba(75,31,67,.04)}
+.v51-assessment-note strong{display:block;color:#40263d;font-size:1rem;margin-bottom:5px}
+.v51-assessment-note p{margin:0 0 8px;color:#665463;line-height:1.65}
+
+@media(max-width:1020px){.v51-price-guide{grid-template-columns:1fr}.v51-price-legend{grid-template-columns:1fr 1fr}.v51-service-price-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:720px){.v51-price-explainer,.v51-cleaning-prices{padding-block:40px}.v51-price-guide{padding:22px 18px;gap:20px;border-radius:18px}.v51-price-legend{grid-template-columns:1fr}.v51-service-price-grid{grid-template-columns:1fr;gap:11px}.v51-service-price-card{min-height:0;padding:19px}.v51-service-price-lines>div{align-items:flex-start;flex-direction:column;gap:3px}.v51-service-price-lines strong{text-align:left;white-space:normal}.v51-assessment-note{padding:18px}.v43-price-row{align-items:flex-start}.v45-price-pair{min-width:128px}}
