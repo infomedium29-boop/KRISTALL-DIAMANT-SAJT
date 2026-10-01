@@ -1732,7 +1732,21 @@ form .field.full > .btn[type=submit]:hover{
 @media(max-width:390px){
   .site-header .brand img.brand-logo{width:40px!important;height:40px!important;min-width:40px!important;max-width:40px!important;flex-basis:40px!important}
 }
-\n\n/* V50 — clearer, accessible form feedback after Web3Forms submission */\n[data-contact-form] .form-status{\n  display:none; margin-top:14px; min-height:0; font-size:.84rem; line-height:1.5;\n  font-weight:650; border-radius:14px; color:#604d5c;\n}\n[data-contact-form] .form-status:not(:empty){\n  display:flex; align-items:flex-start; gap:11px; padding:13px 15px; border:1px solid #eadde7; background:#fffafd;\n}\n[data-contact-form] .form-status::before{\n  flex:0 0 25px; width:25px; height:25px; border-radius:999px; display:grid; place-items:center;\n  font-size:.82rem; font-weight:900; line-height:1; margin-top:-1px;\n}\n[data-contact-form] .form-status.is-success{\n  color:#155b35; background:#edf9f2; border-color:#b9e6ca; box-shadow:0 10px 26px rgba(25,105,62,.08);\n}\n[data-contact-form] .form-status.is-success::before{content:'✓';color:#fff;background:#218a52;}\n[data-contact-form] .form-status.is-pending{color:#62335d;background:#fff5fe;border-color:#edcfea;}\n[data-contact-form] .form-status.is-pending::before{content:'…';color:#fff;background:#8a347d;}\n[data-contact-form] .form-status.is-warning{color:#75530f;background:#fff9e8;border-color:#f0dfa1;}\n[data-contact-form] .form-status.is-warning::before{content:'!';color:#fff;background:#b98618;}\n[data-contact-form] .form-status.is-error{color:#8b2d35;background:#fff1f2;border-color:#efc1c5;}\n[data-contact-form] .form-status.is-error::before{content:'!';color:#fff;background:#bb4650;}\n@media(max-width:520px){\n  [data-contact-form] .form-status:not(:empty){padding:12px 13px;gap:9px;font-size:.81rem;border-radius:12px}\n  [data-contact-form] .form-status::before{flex-basis:23px;width:23px;height:23px}\n}\n
+
+
+/* V50 — clearer, accessible form feedback after Web3Forms submission */
+[data-contact-form] .form-status{\n  display:none; margin-top:14px; min-height:0; font-size:.84rem; line-height:1.5;\n  font-weight:650; border-radius:14px; color:#604d5c;\n}
+[data-contact-form] .form-status:not(:empty){\n  display:flex; align-items:flex-start; gap:11px; padding:13px 15px; border:1px solid #eadde7; background:#fffafd;\n}
+[data-contact-form] .form-status::before{\n  flex:0 0 25px; width:25px; height:25px; border-radius:999px; display:grid; place-items:center;\n  font-size:.82rem; font-weight:900; line-height:1; margin-top:-1px;\n}
+[data-contact-form] .form-status.is-success{\n  color:#155b35; background:#edf9f2; border-color:#b9e6ca; box-shadow:0 10px 26px rgba(25,105,62,.08);\n}
+[data-contact-form] .form-status.is-success::before{content:'✓';color:#fff;background:#218a52;}
+[data-contact-form] .form-status.is-pending{color:#62335d;background:#fff5fe;border-color:#edcfea;}
+[data-contact-form] .form-status.is-pending::before{content:'…';color:#fff;background:#8a347d;}
+[data-contact-form] .form-status.is-warning{color:#75530f;background:#fff9e8;border-color:#f0dfa1;}
+[data-contact-form] .form-status.is-warning::before{content:'!';color:#fff;background:#b98618;}
+[data-contact-form] .form-status.is-error{color:#8b2d35;background:#fff1f2;border-color:#efc1c5;}
+[data-contact-form] .form-status.is-error::before{content:'!';color:#fff;background:#bb4650;}
+@media(max-width:520px){\n  [data-contact-form] .form-status:not(:empty){padding:12px 13px;gap:9px;font-size:.81rem;border-radius:12px}\n  [data-contact-form] .form-status::before{flex-basis:23px;width:23px;height:23px}\n}\n
 
 /* V51 — human-readable current + reference prices */
 .v51-price-explainer{padding-block:48px;background:#fff}
@@ -1787,3 +1801,54 @@ html[lang="en"] .v43-carpet-price .v45-carpet-pair>strong::before{content:"Curre
 .v53-rate-values{display:grid;grid-template-columns:1fr 1fr;gap:10px}.v53-rate-values>div{padding:15px;border:1px solid #edd8e9;border-radius:14px;background:#fff7ff}.v53-rate-values>div.anchor{background:#4a2144;border-color:#4a2144}.v53-rate-values span{display:block;font-size:.68rem;font-weight:850;letter-spacing:.045em;text-transform:uppercase;color:#85567d;margin-bottom:6px}.v53-rate-values strong{font-size:1.15rem;color:#6b2462;white-space:nowrap}.v53-rate-values .anchor span{color:#ead9e7}.v53-rate-values .anchor strong{color:#fff}.v53-hourly-card .v51-service-price-lines strong{font-size:.98rem}.v53-hourly-card{min-height:280px}
 @media(max-width:860px){.v53-rate-card{grid-template-columns:1fr}.v53-rate-values{grid-template-columns:1fr 1fr}}
 @media(max-width:620px){.v53-rate-strip{padding:18px 0}.v53-rate-card{padding:19px 17px;border-radius:16px;gap:18px}.v53-rate-values{grid-template-columns:1fr}.v53-rate-values strong{font-size:1.05rem}.v53-hourly-card{min-height:0}}
+
+
+/* V56 — guaranteed visible form feedback */
+[data-contact-form] .form-status {
+  display: none;
+  margin-top: 14px;
+  padding: 0;
+  min-height: 0;
+  border: 0;
+}
+[data-contact-form] .form-status:not(:empty) {
+  display: flex !important;
+  align-items: center;
+  gap: 11px;
+  padding: 14px 16px !important;
+  border-radius: 14px !important;
+  font-size: .84rem;
+  line-height: 1.45;
+  font-weight: 700;
+}
+[data-contact-form] .form-status.is-success {
+  color: #155b35 !important;
+  background: #edf9f2 !important;
+  border: 1px solid #b9e6ca !important;
+  box-shadow: 0 10px 26px rgba(25,105,62,.08) !important;
+}
+[data-contact-form] .form-status.is-success::before {
+  content: "✓";
+  flex: 0 0 25px;
+  width: 25px;
+  height: 25px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: #218a52;
+  color: #fff;
+  font-weight: 900;
+  line-height: 1;
+}
+[data-contact-form] .form-status.is-pending {
+  color: #62335d !important; background: #fff5fe !important; border: 1px solid #edcfea !important;
+}
+[data-contact-form] .form-status.is-warning {
+  color: #75530f !important; background: #fff9e8 !important; border: 1px solid #f0dfa1 !important;
+}
+[data-contact-form] .form-status.is-error {
+  color: #8b2d35 !important; background: #fff1f2 !important; border: 1px solid #efc1c5 !important;
+}
+@media(max-width:520px){
+  [data-contact-form] .form-status:not(:empty){padding:12px 13px !important;font-size:.81rem;border-radius:12px !important}
+}
