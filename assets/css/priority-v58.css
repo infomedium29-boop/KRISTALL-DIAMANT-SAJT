@@ -14,7 +14,6 @@
 .kd-priority-image img{width:100%;height:100%;object-fit:cover;transition:transform .55s cubic-bezier(.22,.61,.36,1)}
 .kd-priority-card:hover .kd-priority-image img{transform:scale(1.045)}
 .kd-priority-image:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(30,16,29,.05) 40%,rgba(30,16,29,.50) 100%);pointer-events:none}
-.kd-priority-image-number{position:absolute;z-index:1;bottom:19px;left:24px;color:#fff;font-size:.7rem;letter-spacing:.2em;font-weight:800}
 .kd-priority-card-body{padding:30px 34px 34px;display:flex;flex-direction:column;flex:1}
 .kd-priority-overline{font-size:.71rem;text-transform:uppercase;font-weight:800;letter-spacing:.17em;color:#9a3890;margin-bottom:12px}
 .kd-priority-card h3{font-size:clamp(1.85rem,2.75vw,2.8rem);color:#352039;line-height:1.08;margin:0 0 15px}
@@ -45,7 +44,7 @@
 @media(max-width:720px){
  .kd-priority-section{padding:55px 0 58px}.kd-priority-heading{gap:15px;margin-bottom:25px}.kd-priority-heading h2{font-size:clamp(2.15rem,10vw,3.2rem)}.kd-priority-lead{font-size:.94rem;line-height:1.75}
  .kd-priority-cards{grid-template-columns:1fr;gap:15px}.kd-priority-image{height:155px}.kd-priority-card{border-radius:17px}
- .kd-priority-image-number{left:20px;bottom:14px}.kd-priority-card-body{padding:22px 21px 23px}
+ .kd-priority-card-body{padding:22px 21px 23px}
  .kd-priority-card h3{font-size:clamp(1.85rem,7.4vw,2.35rem);margin-bottom:11px}
  .kd-priority-card-body>p{font-size:.87rem;line-height:1.7;margin-bottom:14px}.kd-priority-benefits{margin:0 0 19px;gap:7px 10px}
  .kd-priority-benefits li{font-size:.72rem}.kd-priority-actions{gap:10px;padding-top:16px}
