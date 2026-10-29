@@ -52,6 +52,34 @@ document.querySelectorAll('.pending-social').forEach(a=>a.addEventListener('clic
 // Free-plan Web3Forms submission runs directly from the browser. The access key is public by design.
 const form=document.querySelector('[data-contact-form]');
 if(form){
+  // V58: When a visitor comes from one of the two featured regular-cleaning services,
+  // preselect only existing form choices and show a clear contextual note.
+  // Visitors remain free to change the selected options.
+  const selectedInterest=new URLSearchParams(window.location.search).get('interest');
+  const interestConfig={
+    stairwells:{space:KD_LANG==='hr'?'Stubište / zgrada':'Stairwell / building',
+      service:KD_LANG==='hr'?'Redovno':'Regular',
+      text:KD_LANG==='hr'?'Odabrali ste upit za redovno čišćenje stubišta. Podatke možete prilagoditi prije slanja.':'You selected regular stairwell cleaning. You can adjust the details before sending.'},
+    homes:{space:KD_LANG==='hr'?'Stan ili kuća':'Apartment or house',
+      service:KD_LANG==='hr'?'Redovno':'Regular',
+      text:KD_LANG==='hr'?'Odabrali ste upit za redovno održavanje doma. Po želji odaberite točno vrstu prostora.':'You selected regular home cleaning. You can choose your specific type of home.'}
+  };
+  const interest=interestConfig[selectedInterest];
+  if(interest){
+    const space=form.querySelector('select[name="space"]');
+    const service=form.querySelector('select[name="service"]');
+    if(space){
+      let opt=[...space.options].find(o=>o.textContent.trim()===interest.space);
+      if(!opt && selectedInterest==='homes'){
+        opt=document.createElement('option');opt.textContent=interest.space;
+        space.add(opt,0);
+      }
+      if(opt)space.value=opt.value;
+    }
+    if(service){const opt=[...service.options].find(o=>o.textContent.trim()===interest.service);if(opt)service.value=opt.value;}
+    const note=form.querySelector('[data-kd-interest-note]');
+    if(note){note.textContent=interest.text;note.hidden=false;}
+  }
   let submitting=false;
   form.addEventListener('submit',async(e)=>{
     e.preventDefault();

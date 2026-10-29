@@ -1,0 +1,59 @@
+/* V58 — premium editorial spotlight for the two confirmed SEO/business priorities.
+   Loaded after the existing pink/plum theme. No changes to forms, cookie settings, or mobile sticky contact. */
+.kd-priority-section{position:relative;isolation:isolate;overflow:hidden;padding:94px 0 88px;background:linear-gradient(150deg,#fff8fe 0%,#fff1fd 49%,#ffe9fc 100%);border-bottom:1px solid #edcbea}
+.kd-priority-section:before{content:"";position:absolute;right:-150px;top:-160px;width:480px;height:480px;border:1px solid rgba(191,71,165,.10);border-radius:50%;box-shadow:0 0 0 95px rgba(191,71,165,.022),0 0 0 205px rgba(191,71,165,.018);pointer-events:none;z-index:-1}
+.kd-priority-heading{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(270px,.8fr);gap:54px;align-items:end;margin-bottom:38px}
+.kd-priority-kicker{display:inline-flex;align-items:center;gap:12px;color:#8e277e!important;font-size:.75rem;letter-spacing:.19em}
+.kd-priority-kicker:before{content:"";display:block;width:28px;height:1px;background:#b539a4}
+.kd-priority-heading h2{margin:14px 0 0;max-width:720px;font-size:clamp(2.35rem,4.2vw,4.15rem);line-height:1.08;color:#352039}
+.kd-priority-lead{font-size:1.04rem;line-height:1.85;color:#665367;margin:0 0 5px;max-width:440px}
+.kd-priority-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:23px;align-items:stretch}
+.kd-priority-card{position:relative;overflow:hidden;display:flex;flex-direction:column;border:1px solid rgba(167,75,148,.22);border-radius:22px;background:#fff;box-shadow:0 15px 44px rgba(65,31,58,.075);transition:transform .35s ease,border-color .35s ease,box-shadow .35s ease;min-width:0}
+.kd-priority-card:hover{transform:translateY(-5px);border-color:#b95aab;box-shadow:0 23px 52px rgba(65,31,58,.14)}
+.kd-priority-image{display:block;height:220px;position:relative;overflow:hidden;background:#e9d3e4}
+.kd-priority-image img{width:100%;height:100%;object-fit:cover;transition:transform .55s cubic-bezier(.22,.61,.36,1)}
+.kd-priority-card:hover .kd-priority-image img{transform:scale(1.045)}
+.kd-priority-image:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(30,16,29,.05) 40%,rgba(30,16,29,.50) 100%);pointer-events:none}
+.kd-priority-image-number{position:absolute;z-index:1;bottom:19px;left:24px;color:#fff;font-size:.7rem;letter-spacing:.2em;font-weight:800}
+.kd-priority-card-body{padding:30px 34px 34px;display:flex;flex-direction:column;flex:1}
+.kd-priority-overline{font-size:.71rem;text-transform:uppercase;font-weight:800;letter-spacing:.17em;color:#9a3890;margin-bottom:12px}
+.kd-priority-card h3{font-size:clamp(1.85rem,2.75vw,2.8rem);color:#352039;line-height:1.08;margin:0 0 15px}
+.kd-priority-card h3 a{transition:color .2s ease}.kd-priority-card h3 a:hover{color:#8e2b80}
+.kd-priority-card-body>p{font-size:.95rem;line-height:1.8;color:#625364;margin:0 0 20px;max-width:490px}
+.kd-priority-benefits{display:flex;flex-wrap:wrap;gap:8px 15px;padding:0;margin:auto 0 26px;list-style:none}
+.kd-priority-benefits li{font-size:.78rem;color:#65435f;font-weight:650;display:flex;align-items:center;gap:7px}
+.kd-priority-benefits li:before{content:"✓";display:grid;place-items:center;flex:0 0 20px;width:20px;height:20px;font-size:.65rem;color:#6e286b;background:#ffdefa;border-radius:50%}
+.kd-priority-actions{display:flex;align-items:center;gap:17px;flex-wrap:wrap;padding-top:22px;border-top:1px solid #f0dfea}
+.kd-priority-cta{min-height:46px;display:inline-flex;justify-content:center;align-items:center;gap:15px;padding:12px 19px;border-radius:999px;background:#352039;border:1px solid #352039;color:#fff;font-weight:800;font-size:.76rem;letter-spacing:.015em;transition:.25s}
+.kd-priority-cta:hover{background:#633062;transform:translateY(-2px)}
+.kd-priority-cta span{font-size:1rem;font-weight:400}
+.kd-priority-detail{font-weight:800;font-size:.76rem;color:#7c356f;transition:color .2s}
+.kd-priority-detail:hover{color:#352039}.kd-priority-detail span{padding-left:4px}
+.kd-priority-mobile-shortcut{display:none}
+/* Services index: subtle connecting navigation, not a duplicate promotional block. */
+.kd-priority-hub{background:linear-gradient(110deg,#fff4fe,#ffe7fc);border-bottom:1px solid #f0c7ed}
+.kd-priority-hub-inner{padding:22px 0;display:flex;justify-content:space-between;align-items:center;gap:24px}
+.kd-priority-hub-inner>div:first-child{display:grid;gap:3px}
+.kd-priority-hub-inner .eyebrow{font-size:.64rem;color:#9a388d}
+.kd-priority-hub-inner strong{font-family:var(--serif);font-size:1.37rem;font-weight:500;color:#3b2440;line-height:1.2}
+.kd-priority-hub-links{display:flex;flex-wrap:wrap;gap:9px}
+.kd-priority-hub-links a{display:inline-flex;gap:10px;align-items:center;border:1px solid #e0abd8;background:rgba(255,255,255,.88);color:#4b294a;border-radius:999px;padding:10px 16px;font-weight:750;font-size:.75rem;transition:background .2s,transform .2s}
+.kd-priority-hub-links a:hover{background:#fff;transform:translateY(-2px)}
+/* Context banner on the estimate form after a priority-service CTA. */
+.kd-interest-note:not([hidden]){padding:13px 17px;margin:0 0 22px;border:1px solid #e8b1e2;border-left:4px solid #a73797;border-radius:11px;background:#fff1fd;color:#543453;font-size:.85rem;line-height:1.65;font-weight:650}
+@media(max-width:950px){.kd-priority-heading{grid-template-columns:1fr;gap:18px}.kd-priority-lead{max-width:710px}.kd-priority-card-body{padding:26px 24px 28px}.kd-priority-actions{gap:14px}.kd-priority-image{height:200px}}
+@media(max-width:720px){
+ .kd-priority-section{padding:55px 0 58px}.kd-priority-heading{gap:15px;margin-bottom:25px}.kd-priority-heading h2{font-size:clamp(2.15rem,10vw,3.2rem)}.kd-priority-lead{font-size:.94rem;line-height:1.75}
+ .kd-priority-cards{grid-template-columns:1fr;gap:15px}.kd-priority-image{height:155px}.kd-priority-card{border-radius:17px}
+ .kd-priority-image-number{left:20px;bottom:14px}.kd-priority-card-body{padding:22px 21px 23px}
+ .kd-priority-card h3{font-size:clamp(1.85rem,7.4vw,2.35rem);margin-bottom:11px}
+ .kd-priority-card-body>p{font-size:.87rem;line-height:1.7;margin-bottom:14px}.kd-priority-benefits{margin:0 0 19px;gap:7px 10px}
+ .kd-priority-benefits li{font-size:.72rem}.kd-priority-actions{gap:10px;padding-top:16px}
+ .kd-priority-cta{min-height:43px;font-size:.72rem;padding:10px 16px}.kd-priority-detail{font-size:.73rem}
+ .kd-priority-mobile-shortcut{display:flex;gap:9px;align-items:center;flex-wrap:wrap;padding:19px 0 0;justify-content:center;text-align:center}
+ .kd-priority-mobile-shortcut>span{display:block;width:100%;font-size:.76rem;font-weight:800;color:#634663}
+ .kd-priority-mobile-shortcut a{display:inline-flex;align-items:center;gap:7px;min-height:40px;padding:8px 16px;border:1px solid #ddb6d8;background:#fff;color:#4e2c4c;border-radius:999px;font-size:.75rem;font-weight:800}
+ .kd-priority-hub-inner{align-items:flex-start;flex-direction:column;gap:14px;padding:21px 0}.kd-priority-hub-links{width:100%}.kd-priority-hub-links a{font-size:.71rem;padding:9px 13px}
+}
+@media(max-width:390px){.kd-priority-actions{flex-direction:column;align-items:stretch}.kd-priority-detail{text-align:center;padding:6px 0}.kd-priority-cta{width:100%}.kd-priority-card-body{padding:21px 19px 22px}}
+@media(prefers-reduced-motion:reduce){.kd-priority-card,.kd-priority-image img,.kd-priority-cta{transition:none!important}.kd-priority-card:hover,.kd-priority-cta:hover,.kd-priority-card:hover img{transform:none!important}}
