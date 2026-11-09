@@ -4,7 +4,7 @@ ROOT = Path(__file__).resolve().parent
 
 PHONE_DISPLAY='097 752 4712'
 PHONE='+385977524712'
-EMAIL='info@ciscenjekristalldiamant.hr'
+EMAIL='kristalldiamant.zagreb@gmail.com'
 INSTAGRAM='https://www.instagram.com/ciscenje.kristall.diamant/'
 FACEBOOK='https://www.facebook.com/share/19FYWXA6xB/'
 TIKTOK='https://www.tiktok.com/@ciscenjezagreb?_r=1&amp;_t=ZN-9A0ae3PaA7i'
